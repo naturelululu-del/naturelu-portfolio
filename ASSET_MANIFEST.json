@@ -1,0 +1,265 @@
+{
+  "source": "Nature_Lu_Personal_Homepage_About_v7.html",
+  "unique_images": 42,
+  "image_occurrences": 44,
+  "images": [
+    {
+      "file": "assets/img-01-ebdc857c46d0.jpg",
+      "mime": "image/jpeg",
+      "bytes": 694170,
+      "sha256": "ebdc857c46d06044ab4f26da63a3b747fbba75af5c4da9fc845edf8c5ce3991b"
+    },
+    {
+      "file": "assets/img-02-6892ea22ebd8.jpg",
+      "mime": "image/jpeg",
+      "bytes": 267189,
+      "sha256": "6892ea22ebd8d6f98b4931526216bce26d46be618e48bc17b76eb904f54ef1e5"
+    },
+    {
+      "file": "assets/img-03-3f1d0685e779.jpg",
+      "mime": "image/jpeg",
+      "bytes": 118346,
+      "sha256": "3f1d0685e779372465074f3b0a3054d40e0e86a9ad8585be9755af7995eda1c2"
+    },
+    {
+      "file": "assets/img-04-498be016cfda.jpg",
+      "mime": "image/jpeg",
+      "bytes": 191736,
+      "sha256": "498be016cfda125f70cf314b9eb6edab7a2c1b1bb39f7aee76a8e8de0a688c2a"
+    },
+    {
+      "file": "assets/img-05-df1d064d3c95.jpg",
+      "mime": "image/jpeg",
+      "bytes": 214445,
+      "sha256": "df1d064d3c950067288abb41375c9e3d515a385a5e75380b63c4c9d014a494ec"
+    },
+    {
+      "file": "assets/img-06-5cb8aa55975f.jpg",
+      "mime": "image/jpeg",
+      "bytes": 212273,
+      "sha256": "5cb8aa55975fc17d7c0950971d2aa204b31f37f695b7f51180ba6f81de8cf70f"
+    },
+    {
+      "file": "assets/img-07-a9226a7faa31.jpg",
+      "mime": "image/jpeg",
+      "bytes": 153937,
+      "sha256": "a9226a7faa311fe990410888552a5d44ac063f456cf8efef5eff7327b9ed2cd7"
+    },
+    {
+      "file": "assets/img-08-b67c10f9ab2f.jpg",
+      "mime": "image/jpeg",
+      "bytes": 196115,
+      "sha256": "b67c10f9ab2f485ddfd5bf8c8b5c8a0f9a9f051ef2d3ba128ec3b93401432deb"
+    },
+    {
+      "file": "assets/img-09-67f1f5a72f3a.jpg",
+      "mime": "image/jpeg",
+      "bytes": 189103,
+      "sha256": "67f1f5a72f3adf89bbd1c9a1f30c70288c75824574d96dd00f4baba9291fd16f"
+    },
+    {
+      "file": "assets/img-10-d127dba25826.jpg",
+      "mime": "image/jpeg",
+      "bytes": 198917,
+      "sha256": "d127dba2582684c18c0fc716bfc619352d3b36addd570dd3b45d5fe06b69d522"
+    },
+    {
+      "file": "assets/img-11-492f95d5da80.jpg",
+      "mime": "image/jpeg",
+      "bytes": 167232,
+      "sha256": "492f95d5da80e900f36c7def0792e7804afa869f87f84bf0e6012ecda76a2760"
+    },
+    {
+      "file": "assets/img-12-212265e12f88.jpg",
+      "mime": "image/jpeg",
+      "bytes": 240329,
+      "sha256": "212265e12f88709ad97ab1ac134cd7fdd33f847b1024690cd0f5864a0a57f8f9"
+    },
+    {
+      "file": "assets/img-13-00e2a945cde7.jpg",
+      "mime": "image/jpeg",
+      "bytes": 284864,
+      "sha256": "00e2a945cde7d5e9807bc0b299385bf1b6dd1009beae55860f0179d873a1b0b1"
+    },
+    {
+      "file": "assets/img-14-08c5b276d25c.jpg",
+      "mime": "image/jpeg",
+      "bytes": 186024,
+      "sha256": "08c5b276d25c05dc2b802bbd3a3c1d014ec2e2e907645cf4ca33c4552eb9030e"
+    },
+    {
+      "file": "assets/img-15-cd4baadd29d3.jpg",
+      "mime": "image/jpeg",
+      "bytes": 215106,
+      "sha256": "cd4baadd29d3127c32b336470636cc38c5d2f2d783dd81c883e6925994ceb268"
+    },
+    {
+      "file": "assets/img-16-6bb9b7f4056e.jpg",
+      "mime": "image/jpeg",
+      "bytes": 397394,
+      "sha256": "6bb9b7f4056e70936ee4a3847b9af311ec17a9fd9a72460ff44d168a8d214c65"
+    },
+    {
+      "file": "assets/img-17-144006ea8516.jpg",
+      "mime": "image/jpeg",
+      "bytes": 215553,
+      "sha256": "144006ea851610ae7b185a70329250d7142a64571d89fe98d599d6e3808b473e"
+    },
+    {
+      "file": "assets/img-18-b6e443bf418c.png",
+      "mime": "image/png",
+      "bytes": 3167511,
+      "sha256": "b6e443bf418c7a48b1db7cb9959433a65fe65541d234f212e20508f9a2d56418"
+    },
+    {
+      "file": "assets/img-19-1df95b86a2af.png",
+      "mime": "image/png",
+      "bytes": 3955694,
+      "sha256": "1df95b86a2af2f0aa5265b4d3a24bd33c10e90a9698fbcc96f7740b078d66f1e"
+    },
+    {
+      "file": "assets/img-20-de1e3b0bc20e.png",
+      "mime": "image/png",
+      "bytes": 1562170,
+      "sha256": "de1e3b0bc20e587e53994d55b8b21c9163e047ebdb0c780fef3f3fdac5a89a46"
+    },
+    {
+      "file": "assets/img-21-74f32a5df021.png",
+      "mime": "image/png",
+      "bytes": 2293916,
+      "sha256": "74f32a5df0217a1b207ffec2c3ab596dfa66dbc0dca46ebd97c2658f3c738e28"
+    },
+    {
+      "file": "assets/img-22-2f286aecdf06.png",
+      "mime": "image/png",
+      "bytes": 2491,
+      "sha256": "2f286aecdf0678ba985a524a897cd9e91d305ff52939da8ca6c8d8eec51ebb9f"
+    },
+    {
+      "file": "assets/img-23-48ddcf651181.jpg",
+      "mime": "image/jpeg",
+      "bytes": 152878,
+      "sha256": "48ddcf6511811790289eadced9e6530a2efddba1e9bc896f946bb370bec96090"
+    },
+    {
+      "file": "assets/img-24-43d3f932e422.jpg",
+      "mime": "image/jpeg",
+      "bytes": 182884,
+      "sha256": "43d3f932e422aaf69f5239b57fa039fb7102960c467adac4769ee950474af212"
+    },
+    {
+      "file": "assets/img-25-0b7fe39c2d44.jpg",
+      "mime": "image/jpeg",
+      "bytes": 121244,
+      "sha256": "0b7fe39c2d44945633a8ba1e39714ffd87e540cdf9375a0aeb783fc79ac7611a"
+    },
+    {
+      "file": "assets/img-26-065b00d0e7a6.jpg",
+      "mime": "image/jpeg",
+      "bytes": 371624,
+      "sha256": "065b00d0e7a6b99d9c190b7ce6c0a6ca2b50ec58f22ed26dd62baade069f9554"
+    },
+    {
+      "file": "assets/img-27-ab0d40377fe2.jpg",
+      "mime": "image/jpeg",
+      "bytes": 183861,
+      "sha256": "ab0d40377fe2867d05e80c045aba12ada95fef689f3494210c3f162c6e4874c5"
+    },
+    {
+      "file": "assets/img-28-96018d2a8e0e.png",
+      "mime": "image/png",
+      "bytes": 445480,
+      "sha256": "96018d2a8e0eed3db46549041ec606d4ad9673d1bd1ac1fbe1a07acfb5ef6fe4"
+    },
+    {
+      "file": "assets/img-29-0543eaae218e.jpg",
+      "mime": "image/jpeg",
+      "bytes": 847353,
+      "sha256": "0543eaae218e445f52f8ac4ccda68822669bfb2d79591b224514f706630c3352"
+    },
+    {
+      "file": "assets/img-30-d20db1a62cd8.jpg",
+      "mime": "image/jpeg",
+      "bytes": 624578,
+      "sha256": "d20db1a62cd8b11652b719e8c17b91af7eedcf6eb3d8fccdedcf55a6e05d33cf"
+    },
+    {
+      "file": "assets/img-31-9d82789f298e.jpg",
+      "mime": "image/jpeg",
+      "bytes": 614656,
+      "sha256": "9d82789f298e00027087603f6fb752367c58e45c48960d23b1dc9d6f8a1195bd"
+    },
+    {
+      "file": "assets/img-32-d4e8d0339238.jpg",
+      "mime": "image/jpeg",
+      "bytes": 367620,
+      "sha256": "d4e8d0339238ef3845de7f8a477802be9ca54b408d38ad2e9114646254a1f12d"
+    },
+    {
+      "file": "assets/img-33-3aad6b940d50.jpg",
+      "mime": "image/jpeg",
+      "bytes": 319689,
+      "sha256": "3aad6b940d50447cb7b1634cebafbe5c59d7a214b8baae133a8a3d4ed3cfd28c"
+    },
+    {
+      "file": "assets/img-34-dec668db2de3.jpg",
+      "mime": "image/jpeg",
+      "bytes": 347050,
+      "sha256": "dec668db2de36b42fa1c9316374581ac8f5e2b5dcb758e6a5e761d2a3688bc16"
+    },
+    {
+      "file": "assets/img-35-97888572d96c.jpg",
+      "mime": "image/jpeg",
+      "bytes": 302540,
+      "sha256": "97888572d96c391289df49faa1f408116233c35f3f80140b06e374806ea6d698"
+    },
+    {
+      "file": "assets/img-36-6044247e331c.jpg",
+      "mime": "image/jpeg",
+      "bytes": 542194,
+      "sha256": "6044247e331c899b28f5eecf13414b50d0f9581707466a4f739ee57b3174eade"
+    },
+    {
+      "file": "assets/img-37-86a3481f3ce9.png",
+      "mime": "image/png",
+      "bytes": 2668765,
+      "sha256": "86a3481f3ce94f9f50040a943e36a5275add3059665974011419d8292755d258"
+    },
+    {
+      "file": "assets/img-38-5fce00c321d1.jpg",
+      "mime": "image/jpeg",
+      "bytes": 412551,
+      "sha256": "5fce00c321d1a632d550b26bcf836f1fd257e1f3058cc079aef02e18c6b33757"
+    },
+    {
+      "file": "assets/img-39-361efba11c32.jpg",
+      "mime": "image/jpeg",
+      "bytes": 139350,
+      "sha256": "361efba11c3243198d28aa436d41cc7fb9e726674fc2cd6355630802b6e75f6b"
+    },
+    {
+      "file": "assets/img-40-e0f4f7831c8e.jpg",
+      "mime": "image/jpeg",
+      "bytes": 530224,
+      "sha256": "e0f4f7831c8e8ec690334d4bb9a3c8d600adc39d0f5d0026ab18559667e39017"
+    },
+    {
+      "file": "assets/img-41-d35c28bb1dec.png",
+      "mime": "image/png",
+      "bytes": 811,
+      "sha256": "d35c28bb1dec10c3e84094a8376dc262f5871c3cdffea028ddaf97e31c2b0a40"
+    },
+    {
+      "file": "assets/img-42-7333a0549d83.jpg",
+      "mime": "image/jpeg",
+      "bytes": 828857,
+      "sha256": "7333a0549d83f7ecfdf30f28009c825157b90b7e22cc7840af61059e89558026"
+    }
+  ],
+  "pdf": {
+    "file": "Nature_Lu_CV.pdf",
+    "bytes": 727165,
+    "sha256": "4459d2925e6da45251dbdbfbb703bac867a9560014eae08c05d4150d0b437e39",
+    "occurrences": 3
+  }
+}

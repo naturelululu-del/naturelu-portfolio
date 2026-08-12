@@ -1,0 +1,1764 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title><span data-cn="鹿自然｜品牌传播 · 内容策划 · 项目运营" data-en="Nature Lu | Brand Communications · Content Strategy · Project Operations" data-i18n="1">鹿自然｜品牌传播 · 内容策划 · 项目运营</span></title>
+<meta content="鹿自然个人主页｜品牌传播、内容策划、项目运营与大型活动经验" data-content-cn="鹿自然个人主页｜品牌传播、内容策划、项目运营与大型活动经验" data-content-en="Nature Lu — Portfolio in brand communications, content strategy, project operations and large-scale events." name="description"/>
+<style>
+:root{
+  --bg:#f4f2ed;--paper:#faf9f6;--ink:#18222d;--muted:#6d747b;
+  --line:#d9d6cf;--accent:#a92e2e;--white:#fff;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;
+line-height:1.75}
+a{color:inherit;text-decoration:none}
+.container{width:min(1180px,calc(100% - 52px));margin:auto}
+nav{height:78px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:800;letter-spacing:.12em}
+.navlinks{display:flex;gap:28px;font-size:14px;color:var(--muted)}
+.navlinks a:hover{color:var(--accent)}
+.nav-lang{
+  margin-left:2px;
+  padding:5px 9px;
+  border:1px solid var(--line);
+  font-size:11px;
+  letter-spacing:.08em;
+}
+.nav-lang:hover{
+  border-color:var(--accent);
+}
+.hero{min-height:calc(100vh - 78px);display:grid;grid-template-columns:1.25fr .75fr;
+align-items:center;gap:80px;padding:80px 0}
+.kicker{font-size:12px;letter-spacing:.18em;color:var(--accent);font-weight:800}
+h1{font-size:clamp(50px,7vw,88px);line-height:1.03;margin:18px 0 28px;letter-spacing:-.055em}
+.hero h2{font-size:24px;line-height:1.4;font-weight:500;margin:0 0 20px}
+.hero p{font-size:17px;color:var(--muted);max-width:650px;margin:0}
+.cta{display:flex;gap:12px;margin-top:32px;flex-wrap:wrap}
+.btn{border:1px solid var(--ink);padding:11px 18px;font-size:14px}
+.btn.primary{background:var(--ink);color:#fff}
+.hero-card{background:var(--ink);color:#fff;padding:34px;min-height:410px;display:flex;flex-direction:column;justify-content:space-between}
+.hero-card .name{font-size:48px;font-weight:800;line-height:1}
+.hero-card small{color:#c7cdd2;letter-spacing:.14em}
+.hero-card .stats{display:grid;grid-template-columns:1fr 1fr;gap:24px;border-top:1px solid #4a545e;padding-top:24px}
+.stat b{font-size:30px;display:block;line-height:1.2}.stat span{font-size:12px;color:#c7cdd2}
+section{padding:105px 0;border-top:1px solid var(--line)}
+#about{padding-top:82px;padding-bottom:88px}
+#about .section-head{margin-bottom:10px}
+.section-head{display:flex;justify-content:space-between;align-items:flex-end;gap:50px;margin-bottom:42px}
+.section-head h2{font-size:42px;line-height:1.1;margin:0;letter-spacing:-.04em}
+.section-head p{max-width:560px;color:var(--muted);margin:0}
+.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px}
+.intro-grid p{font-size:18px;margin-top:0}
+.tags{display:flex;flex-wrap:wrap;gap:9px}
+.tag{background:var(--paper);border:1px solid var(--line);padding:7px 11px;font-size:13px}
+.work{display:grid;grid-template-columns:180px 1fr;gap:50px}
+.work-meta{font-size:13px;color:var(--muted)}
+.work h3{font-size:25px;margin:0 0 4px}.role{font-size:15px;color:var(--accent);font-weight:700;margin-bottom:24px}
+.work-block{margin-bottom:28px}
+.work-block h4{font-size:16px;margin:0 0 8px}
+.work-block p{color:#424b53;margin:0 0 9px}
+.work-block ul{margin:0;padding-left:20px;color:#424b53}
+.work-block li{margin:5px 0}
+.projects{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.project{background:var(--paper);border:1px solid var(--line);padding:30px;min-height:330px;display:flex;flex-direction:column;justify-content:space-between}
+.project .num{font-size:12px;color:var(--accent);font-weight:800;letter-spacing:.12em}
+.project h3{font-size:24px;line-height:1.35;margin:18px 0 9px}
+.project p{color:var(--muted);margin:0}
+.metrics{border-top:1px solid var(--line);padding-top:18px;margin-top:24px;font-size:13px;font-weight:700}
+.numbers{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.number{padding:28px 20px;border-right:1px solid var(--line)}
+.number:last-child{border-right:0}
+.number b{display:block;font-size:40px;line-height:1.1}.number span{font-size:13px;color:var(--muted)}
+.contact{background:var(--ink);color:#fff;padding:70px}
+.contact h2{font-size:50px;line-height:1.1;margin:0 0 16px;letter-spacing:-.04em}
+.contact p{color:#c7cdd2;max-width:650px}
+footer{display:flex;justify-content:space-between;padding:28px 0;color:var(--muted);font-size:12px}
+
+.gallery{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+.gallery-item{margin:0;background:var(--paper);border:1px solid var(--line);overflow:hidden}
+.gallery-item:nth-child(1){grid-column:span 7}
+.gallery-item:nth-child(2){grid-column:span 5}
+.gallery-item:nth-child(3){grid-column:span 5}
+.gallery-item:nth-child(4){grid-column:span 7}
+.gallery-item:nth-child(5),.gallery-item:nth-child(6),.gallery-item:nth-child(7),.gallery-item:nth-child(8){grid-column:span 3}
+.gallery-item:nth-child(9){grid-column:span 7}
+.gallery-item:nth-child(10){grid-column:span 5}
+.gallery-item img{display:block;width:100%;height:270px;object-fit:cover}
+.gallery-item:nth-child(1) img,.gallery-item:nth-child(4) img{height:330px}
+.gallery-item figcaption{padding:12px 14px;font-size:12px;color:var(--muted);line-height:1.5}
+
+
+.story-intro{display:grid;grid-template-columns:1.35fr .65fr;gap:60px;align-items:end;margin:15px 0 28px}
+.story-intro h3{font-size:28px;line-height:1.3;margin:12px 0 10px}
+.story-intro p{color:var(--muted);max-width:720px;margin:0}
+.story-quote{font-size:21px;line-height:1.55;border-left:2px solid var(--accent);padding-left:20px}
+.story-note{border:1px solid var(--line);background:var(--paper);padding:22px}
+.story-note b{display:block;font-size:25px;margin-bottom:5px}.story-note span{font-size:12px;color:var(--muted)}
+.story-grid{display:grid;gap:16px}
+.story-grid-two{grid-template-columns:1fr 1fr}
+.story-grid-three{grid-template-columns:repeat(3,1fr)}
+.story-card{margin:0;background:var(--paper);border:1px solid var(--line);overflow:hidden}
+.story-card img{display:block;width:100%;height:330px;object-fit:cover}
+.story-grid-three .story-card img{height:300px}
+.story-card figcaption{padding:12px 14px;font-size:12px;color:var(--muted)}
+.second{margin-top:80px}
+
+@media(max-width:820px){
+ .container{width:min(100% - 32px,1180px)}.navlinks{display:none}
+ .hero{grid-template-columns:1fr;gap:45px;padding:55px 0}
+ .intro-grid,.projects{grid-template-columns:1fr}
+ .section-head{display:block}.section-head p{margin-top:14px}
+ .work{grid-template-columns:1fr;gap:20px}.story-intro{grid-template-columns:1fr;gap:25px}.story-grid-two,.story-grid-three{grid-template-columns:1fr}.story-card img,.story-grid-three .story-card img{height:auto}.second{margin-top:55px}.gallery{display:block}.gallery-item{margin-bottom:14px}.gallery-item img,.gallery-item:nth-child(1) img,.gallery-item:nth-child(4) img{height:auto}.numbers{grid-template-columns:1fr 1fr}
+ .number:nth-child(2){border-right:0}.number:nth-child(-n+2){border-bottom:1px solid var(--line)}
+ .contact{padding:45px 28px}.contact h2{font-size:38px}
+}
+
+.story-grid-seven{grid-template-columns:repeat(4,1fr)}
+.story-grid-seven .story-card img{height:230px}
+@media(max-width:820px){
+  .story-grid-seven{grid-template-columns:1fr 1fr}
+}
+
+
+.recognition-hero{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+.recognition-copy h3{font-size:clamp(34px,4vw,58px);line-height:1.04;margin:12px 0 24px}
+.recognition-copy p{max-width:680px;line-height:1.8}
+.recognition-points{display:grid;gap:16px;margin-top:28px}
+.recognition-points div{padding:16px 0;border-top:1px solid rgba(0,0,0,.12)}
+.recognition-points strong,.recognition-points span{display:block}
+.recognition-points span{margin-top:5px;opacity:.72;line-height:1.5}
+.award-image{margin:0}
+.award-image img{width:100%;display:block;border-radius:18px}
+.award-image figcaption{font-size:13px;opacity:.6;margin-top:12px}
+.recognition-statement{display:flex;gap:18px;margin-top:54px;padding:28px 0;border-top:1px solid rgba(0,0,0,.12);border-bottom:1px solid rgba(0,0,0,.12)}
+.statement-mark{font-size:64px;line-height:.7}
+.recognition-statement b{font-size:22px}
+.recognition-statement p{margin:8px 0 0;opacity:.7}
+@media(max-width:820px){.recognition-hero{grid-template-columns:1fr}.recognition-copy h3{font-size:38px}}
+
+
+.recognition-intro{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:start}
+.recognition-intro h3{font-size:clamp(36px,4.2vw,62px);line-height:1.02;margin:12px 0 24px}
+.recognition-intro p{line-height:1.8;max-width:720px}
+.source-link{display:inline-block;margin-top:14px;padding-bottom:5px;border-bottom:1px solid currentColor;text-decoration:none}
+.recognition-quote{padding:28px;border:1px solid rgba(0,0,0,.12);background:rgba(255,255,255,.55);border-radius:18px}
+.quote-mark{font-size:64px;line-height:.5;display:block}
+.recognition-quote p{font-size:22px;line-height:1.55;margin:12px 0}
+.recognition-quote small,.voice-card small{opacity:.62;line-height:1.5}
+.student-voices{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:42px}
+.voice-card{padding:25px;border-top:2px solid rgba(0,0,0,.18);background:rgba(255,255,255,.38)}
+.voice-index{font-size:12px;letter-spacing:.14em;opacity:.55}
+.voice-card h4{font-size:24px;line-height:1.15;margin:22px 0 12px}
+.voice-card p{font-size:18px;line-height:1.55}
+.recognition-awards{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;margin-top:70px}
+.award-copy h3{font-size:clamp(32px,3.5vw,50px);line-height:1.05;margin:12px 0 20px}
+.award-copy p{line-height:1.8}
+.award-tags{display:flex;flex-wrap:wrap;gap:9px;margin-top:24px}
+.award-tags span{border:1px solid rgba(0,0,0,.16);border-radius:999px;padding:7px 11px;font-size:12px}
+.award-image{margin:0}
+.award-image img{width:100%;display:block;border-radius:18px}
+.award-image figcaption{font-size:12px;opacity:.6;margin-top:10px}
+.recognition-statement{display:flex;gap:18px;margin-top:54px;padding:28px 0;border-top:1px solid rgba(0,0,0,.12);border-bottom:1px solid rgba(0,0,0,.12)}
+.statement-mark{font-size:64px;line-height:.7}
+.recognition-statement b{font-size:22px}
+.recognition-statement p{margin:8px 0 0;opacity:.7}
+@media(max-width:820px){
+  .recognition-intro,.recognition-awards{grid-template-columns:1fr}
+  .student-voices{grid-template-columns:1fr}
+  .recognition-intro h3{font-size:40px}
+}
+
+
+/* v2 — full-image layout: never crop documentary screenshots */
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:16px;
+  align-items:start;
+}
+.gallery-item,
+.gallery-item:nth-child(1),
+.gallery-item:nth-child(2),
+.gallery-item:nth-child(3),
+.gallery-item:nth-child(4),
+.gallery-item:nth-child(5),
+.gallery-item:nth-child(6),
+.gallery-item:nth-child(7),
+.gallery-item:nth-child(8),
+.gallery-item:nth-child(9),
+.gallery-item:nth-child(10){
+  grid-column:span 1;
+}
+.gallery-item img,
+.gallery-item:nth-child(1) img,
+.gallery-item:nth-child(4) img{
+  width:100%;
+  height:auto;
+  max-height:none;
+  object-fit:contain;
+  display:block;
+}
+
+.story-grid{
+  align-items:start;
+}
+.story-card img,
+.story-grid-three .story-card img,
+.story-grid-seven .story-card img{
+  width:100%;
+  height:auto;
+  max-height:none;
+  object-fit:contain;
+  display:block;
+}
+
+/* Screenshots / chat records: smaller, complete, and easy to scan side-by-side */
+.story-grid-three{
+  grid-template-columns:repeat(3,minmax(0,1fr));
+}
+.story-grid-seven{
+  grid-template-columns:repeat(4,minmax(0,1fr));
+}
+
+/* Let portrait screenshots stay portrait rather than being stretched/cropped */
+.story-card{
+  overflow:hidden;
+}
+.story-card img{
+  background:var(--paper);
+}
+
+@media(max-width:980px){
+  .gallery{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .story-grid-seven{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:680px){
+  .gallery{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .story-grid-three,
+  .story-grid-seven{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+
+
+/* v3 — compact magazine/contact-sheet layout */
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(6,minmax(0,1fr));
+  gap:12px;
+  align-items:start;
+}
+.gallery-item,
+.gallery-item:nth-child(1),
+.gallery-item:nth-child(2),
+.gallery-item:nth-child(3),
+.gallery-item:nth-child(4),
+.gallery-item:nth-child(5),
+.gallery-item:nth-child(6),
+.gallery-item:nth-child(7),
+.gallery-item:nth-child(8),
+.gallery-item:nth-child(9),
+.gallery-item:nth-child(10){
+  grid-column:span 1;
+}
+.gallery-item img,
+.gallery-item:nth-child(1) img,
+.gallery-item:nth-child(4) img{
+  width:100%;
+  height:auto;
+  max-height:240px;
+  object-fit:contain;
+  display:block;
+}
+
+/* Editorial image groups: compact, but still show the complete frame */
+.story-grid{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:14px;
+  align-items:start;
+}
+.story-card img,
+.story-grid-three .story-card img,
+.story-grid-seven .story-card img{
+  width:100%;
+  height:auto;
+  max-height:260px;
+  object-fit:contain;
+  display:block;
+}
+
+/* Chat / article screenshots are deliberately smaller */
+.story-grid-three{
+  grid-template-columns:repeat(4,minmax(0,1fr));
+}
+.story-grid-seven{
+  grid-template-columns:repeat(5,minmax(0,1fr));
+}
+
+/* Preserve the full image — never crop screenshots */
+.story-card{
+  overflow:hidden;
+}
+.story-card img{
+  background:var(--paper);
+}
+
+/* Large hero/documentary photos can still breathe, but remain compact */
+.hero-image img,
+.feature-image img{
+  width:100%;
+  height:auto;
+  max-height:420px;
+  object-fit:contain;
+  display:block;
+}
+
+@media(max-width:1100px){
+  .gallery{grid-template-columns:repeat(5,minmax(0,1fr))}
+  .story-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .story-grid-three{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .story-grid-seven{grid-template-columns:repeat(4,minmax(0,1fr))}
+}
+@media(max-width:760px){
+  .gallery{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+  .story-grid,
+  .story-grid-three,
+  .story-grid-seven{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:480px){
+  .gallery{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+
+
+/* v4 editorial numbering + Chinese-first copy */
+.kicker, .num { letter-spacing:.02em; }
+
+/* V5.1 — restrained personal-photo treatment. Keep V5 layout and spacing intact. */
+.about-photo-row{
+  margin-top:52px;
+  display:grid;
+  grid-template-columns:220px 300px;
+  gap:22px;
+  align-items:end;
+}
+.about-photo{
+  margin:0;
+  position:relative;
+}
+.about-photo img{
+  width:100%;
+  height:auto;
+  display:block;
+  border:1px solid var(--line);
+  background:var(--paper);
+}
+.about-photo:first-child{transform:translateY(8px);}
+.about-photo:last-child{transform:translateY(-2px);}
+.about-photo figcaption{
+  margin-top:9px;
+  font-size:11px;
+  letter-spacing:.12em;
+  color:var(--muted);
+  text-transform:uppercase;
+}
+@media(max-width:820px){
+  .about-photo-row{
+    grid-template-columns:1fr 1fr;
+    gap:14px;
+    margin-top:38px;
+  }
+}
+@media(max-width:520px){
+  .about-photo-row{grid-template-columns:1fr 1fr;}
+  .about-photo figcaption{font-size:9px;}
+}
+
+/* V5.3 — interaction layer only; base layout/content intentionally preserved */
+html{scroll-behavior:smooth}
+body::before{
+  content:"";
+  position:fixed;
+  top:0;left:0;
+  width:100%;
+  height:2px;
+  background:var(--accent);
+  transform-origin:left center;
+  transform:scaleX(0);
+  z-index:9999;
+  pointer-events:none;
+}
+body.interaction-ready::before{transform:scaleX(var(--scroll-progress,0));}
+
+.navlinks a{
+  transition:color .22s ease, opacity .22s ease;
+}
+.navlinks a.is-active{
+  color:var(--accent);
+}
+
+.project,
+.story-card,
+.voice-card,
+.number,
+.tag,
+.btn{
+  transition:transform .28s ease, border-color .28s ease, box-shadow .28s ease;
+}
+.project:hover,
+.story-card:hover{
+  transform:translateY(-3px);
+}
+.project:hover{
+  border-color:rgba(169,46,46,.42);
+  box-shadow:0 12px 30px rgba(24,34,45,.07);
+}
+.story-card:hover{
+  border-color:rgba(169,46,46,.35);
+}
+.tag:hover{
+  border-color:var(--accent);
+  transform:translateY(-1px);
+}
+.btn:hover{
+  transform:translateY(-2px);
+}
+.number:hover{
+  background:rgba(255,255,255,.35);
+}
+
+[data-reveal]{
+  opacity:0;
+  transform:translateY(16px);
+  transition:opacity .7s ease, transform .7s ease;
+}
+[data-reveal].revealed{
+  opacity:1;
+  transform:none;
+}
+
+.image-lightbox{
+  position:fixed;
+  inset:0;
+  z-index:10000;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:34px;
+  background:rgba(15,20,25,.88);
+  opacity:0;
+  visibility:hidden;
+  transition:opacity .25s ease, visibility .25s ease;
+}
+.image-lightbox.is-open{
+  opacity:1;
+  visibility:visible;
+}
+.image-lightbox img{
+  max-width:min(92vw,1100px);
+  max-height:88vh;
+  width:auto;
+  height:auto;
+  object-fit:contain;
+  box-shadow:0 18px 60px rgba(0,0,0,.3);
+}
+.image-lightbox button{
+  position:absolute;
+  top:20px;
+  right:24px;
+  width:42px;
+  height:42px;
+  border:1px solid rgba(255,255,255,.35);
+  background:rgba(0,0,0,.18);
+  color:#fff;
+  font-size:25px;
+  cursor:pointer;
+  border-radius:50%;
+}
+.story-card img,
+.gallery-item img{
+  cursor:zoom-in;
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  [data-reveal]{opacity:1;transform:none;transition:none}
+  .project,.story-card,.voice-card,.number,.tag,.btn{transition:none}
+}
+
+
+/* V5.4 — understated editorial cursor */
+html, body, a, button, .project, .story-card, .tag, .btn{
+  cursor:none;
+}
+#customCursor{
+  position:fixed;
+  left:0;
+  top:0;
+  width:9px;
+  height:9px;
+  border:1px solid var(--accent);
+  border-radius:50%;
+  pointer-events:none;
+  z-index:10001;
+  transform:translate(-50%,-50%);
+  transition:
+    width .18s ease,
+    height .18s ease,
+    background .18s ease,
+    border-color .18s ease,
+    opacity .18s ease;
+  opacity:0;
+  mix-blend-mode:multiply;
+}
+#customCursor.is-visible{opacity:1}
+#customCursor.is-hover{
+  width:30px;
+  height:30px;
+  background:rgba(169,46,46,.08);
+}
+#customCursor.is-image{
+  width:34px;
+  height:34px;
+  background:rgba(169,46,46,.10);
+}
+#customCursor.is-image::after{
+  content:"＋";
+  position:absolute;
+  inset:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:var(--accent);
+  font-size:16px;
+  line-height:1;
+}
+@media (hover:none), (pointer:coarse){
+  html, body, a, button, .project, .story-card, .tag, .btn{
+    cursor:auto;
+  }
+  #customCursor{display:none}
+}
+
+
+/* V5.5 — refined micro-interactions; base content/layout remains untouched */
+.project{position:relative;overflow:hidden}
+.project::after{
+  content:"";
+  position:absolute;
+  right:24px;
+  bottom:20px;
+  font-size:11px;
+  letter-spacing:.04em;
+  color:var(--accent);
+  opacity:0;
+  transform:translateY(5px);
+  transition:opacity .25s ease,transform .25s ease;
+  pointer-events:none;
+}
+.project:hover::after{opacity:1;transform:none}
+
+.number{position:relative;overflow:hidden}
+.number::after{
+  content:"";
+  position:absolute;
+  left:0;bottom:0;
+  width:0;height:2px;
+  background:var(--accent);
+  transition:width .45s ease;
+}
+.number:hover::after{width:100%}
+
+.story-card{position:relative}
+.story-card::after{
+  content:none;
+  display:none;
+}
+
+.skill-tags span{transition:transform .2s ease,border-color .2s ease,background .2s ease}
+.skill-tags span:hover{
+  transform:translateY(-2px);
+  border-color:var(--accent);
+  background:rgba(169,46,46,.035);
+}
+
+.recognition-quote,.voice-card{
+  transition:transform .3s ease,box-shadow .3s ease,border-color .3s ease;
+}
+.recognition-quote:hover,.voice-card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 10px 28px rgba(24,34,45,.06);
+  border-color:rgba(169,46,46,.22);
+}
+
+[data-count]{
+  display:inline-block;
+  min-width:2.2ch;
+  font-variant-numeric:tabular-nums;
+}
+
+.project,.story-card,.number,.voice-card,.recognition-quote{
+  will-change:transform;
+}
+
+@media(prefers-reduced-motion:reduce){
+  .project::after{transition:none}
+  .project:hover,.story-card:hover,.recognition-quote:hover,.voice-card:hover{transform:none}
+}
+
+
+.resume-card{
+  border:1px solid rgba(0,0,0,.12);
+  background:rgba(255,255,255,.45);
+  padding:24px;
+}
+.resume-actions{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:24px;
+  margin-bottom:20px;
+}
+.resume-actions h3{margin:8px 0 0;font-size:30px}
+.resume-download-btn{
+  white-space:nowrap;
+  text-decoration:none;
+}
+.resume-preview{
+  width:100%;
+  height:min(760px,72vh);
+  background:#f3f1ec;
+  border:1px solid rgba(0,0,0,.08);
+  overflow:hidden;
+}
+.resume-preview iframe{
+  width:100%;
+  height:100%;
+  border:0;
+  display:block;
+}
+@media(max-width:680px){
+  .resume-actions{align-items:flex-start;flex-direction:column}
+  .resume-actions h3{font-size:26px}
+  .resume-preview{height:620px}
+}
+
+
+.nav-resume{
+  display:inline-flex;
+  align-items:center;
+  margin-left:14px;
+  padding:7px 12px;
+  border:1px solid rgba(0,0,0,.18);
+  text-decoration:none;
+  color:inherit;
+  font-size:12px;
+  transition:all .2s ease;
+}
+.nav-resume:hover{
+  border-color:var(--accent);
+  color:var(--accent);
+  transform:translateY(-1px);
+}
+.resume-download-btn{
+  display:inline-flex !important;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+}
+@media(max-width:680px){
+  .nav-resume{margin-left:8px;padding:6px 9px}
+}
+
+
+.resume-hero-btn{
+  text-decoration:none;
+  cursor:pointer;
+}
+.resume-hero-btn:hover{
+  transform:translateY(-2px);
+}
+@media(max-width:680px){
+  .cta{flex-wrap:wrap}
+}
+
+
+/* V6 — About visual collage: real photos stay untouched; only presentation + hand-drawn connector layer changes. */
+.about-photo-row{
+  position:relative;
+  display:grid;
+  grid-template-columns:280px 330px;
+  gap:38px;
+  align-items:center;
+  margin-top:54px;
+  width:min(100%,680px);
+  padding:28px 18px 34px 8px;
+}
+.about-photo-row::before{
+  content:"";
+  position:absolute;
+  left:92px;
+  top:28px;
+  width:170px;
+  height:250px;
+  border:1px solid rgba(169,46,46,.18);
+  border-radius:48% 52% 44% 56%;
+  transform:rotate(-9deg);
+  z-index:0;
+  pointer-events:none;
+}
+.about-photo-row::after{
+  content:"";
+  position:absolute;
+  right:10px;
+  bottom:24px;
+  width:150px;
+  height:82px;
+  border:1px solid rgba(24,34,45,.16);
+  border-radius:56% 44% 52% 48%;
+  transform:rotate(8deg);
+  z-index:0;
+  pointer-events:none;
+}
+.about-doodle{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  z-index:2;
+  pointer-events:none;
+  overflow:visible;
+}
+.about-doodle path,
+.about-doodle circle,
+.about-doodle line{
+  fill:none;
+  stroke:var(--accent);
+  stroke-width:1.7;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  opacity:.68;
+}
+.about-doodle .blue{stroke:#8daabd;opacity:.62}
+.about-doodle .ink{stroke:var(--ink);opacity:.22}
+.about-doodle .dash{stroke-dasharray:4 7;opacity:.38}
+.about-photo{
+  position:relative;
+  z-index:1;
+  margin:0;
+  background:transparent;
+  overflow:visible;
+}
+.about-photo img{
+  position:relative;
+  width:100%;
+  height:auto;
+  display:block;
+  border:0;
+  background:transparent;
+  box-shadow:none;
+  filter:none;
+  transition:transform .3s ease;
+}
+.about-photo:first-child{
+  transform:rotate(-2.4deg) translateY(10px);
+}
+.about-photo:last-child{
+  transform:rotate(2.8deg) translateY(-4px);
+}
+.about-photo:first-child img{
+  border-radius:0;
+  clip-path:polygon(8% 0,92% 0,100% 8%,96% 22%,100% 39%,94% 57%,100% 76%,91% 100%,10% 100%,2% 91%,6% 73%,0 56%,5% 39%,1% 18%);
+  -webkit-clip-path:polygon(8% 0,92% 0,100% 8%,96% 22%,100% 39%,94% 57%,100% 76%,91% 100%,10% 100%,2% 91%,6% 73%,0 56%,5% 39%,1% 18%);
+}
+.about-photo:last-child img{
+  border-radius:0;
+  clip-path:polygon(3% 10%,16% 2%,34% 6%,52% 0,70% 5%,89% 2%,100% 12%,96% 31%,100% 52%,94% 73%,99% 91%,83% 100%,62% 94%,43% 100%,24% 94%,7% 99%,0 85%,5% 66%,0 46%,5% 28%);
+  -webkit-clip-path:polygon(3% 10%,16% 2%,34% 6%,52% 0,70% 5%,89% 2%,100% 12%,96% 31%,100% 52%,94% 73%,99% 91%,83% 100%,62% 94%,43% 100%,24% 94%,7% 99%,0 85%,5% 66%,0 46%,5% 28%);
+}
+.about-photo:hover img{box-shadow:none}
+.about-photo:first-child:hover img{transform:translateY(-3px) rotate(1deg)}
+.about-photo:last-child:hover img{transform:translateY(-3px) rotate(-1deg)}
+.about-photo figcaption{display:none}
+.about-doodle-label{
+  position:absolute;
+  z-index:3;
+  color:var(--muted);
+  font-size:10px;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  pointer-events:none;
+}
+.about-doodle-label.one{left:18px;top:8px}
+.about-doodle-label.two{right:18px;bottom:4px}
+@media(max-width:820px){
+  .about-photo-row{
+    grid-template-columns:1fr 1fr;
+    gap:16px;
+    width:100%;
+    padding:28px 6px 32px;
+  }
+  .about-photo-row::before{left:7%;width:38%;height:62%;}
+  .about-photo-row::after{right:4%;width:32%;height:25%;}
+  .about-doodle-label{font-size:8px}
+}
+@media(max-width:520px){
+  .about-photo-row{grid-template-columns:1fr 1fr;gap:9px;margin-bottom:18px}
+  .about-doodle{display:none}
+  .about-photo-row::before{left:8%;top:18px;width:38%;height:58%}
+  .about-photo-row::after{right:3%;bottom:16px;width:34%;height:24%}
+}
+
+.nav-lang{
+  appearance:none;border:1px solid var(--line);background:transparent;
+  color:inherit;margin-left:2px;padding:5px 9px;font:inherit;font-size:11px;
+  letter-spacing:.08em;cursor:pointer;
+}
+.nav-lang:hover{border-color:var(--accent);color:var(--accent)}
+
+.video-link-card{cursor:pointer}
+.video-link-card .video-play-hint{
+  position:absolute;left:50%;top:50%;
+  transform:translate(-50%,-50%);
+  padding:7px 12px;
+  border:1px solid rgba(255,255,255,.78);
+  background:rgba(24,34,45,.72);
+  color:#fff;font-size:11px;letter-spacing:.08em;
+  opacity:0;transition:opacity .25s ease;
+  pointer-events:none;z-index:5;
+}
+.video-link-card:hover .video-play-hint,
+.video-link-card:focus-visible .video-play-hint{opacity:1}
+
+/* V5.18 — compact video access card: added without changing the original video grid */
+.video-access-card{
+  margin-top:22px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:22px;
+  max-width:720px;
+  padding:15px 18px;
+  border:1px solid rgba(169,46,46,.20);
+  background:rgba(250,249,246,.72);
+  border-radius:14px;
+}
+.video-access-copy{
+  min-width:0;
+}
+.video-access-kicker{
+  color:var(--accent);
+  font-size:10px;
+  font-weight:800;
+  letter-spacing:.10em;
+  margin-bottom:4px;
+}
+.video-access-copy strong{
+  display:block;
+  font-size:15px;
+  line-height:1.35;
+}
+.video-access-copy p{
+  margin:4px 0 0;
+  color:var(--muted);
+  font-size:11px;
+  line-height:1.45;
+}
+.video-access-actions{
+  display:flex;
+  align-items:center;
+  gap:13px;
+  flex-shrink:0;
+}
+.video-access-qr{
+  width:88px;
+  height:88px;
+  padding:6px;
+  background:var(--paper);
+  border:1px solid rgba(24,34,45,.12);
+  border-radius:9px;
+  display:block;
+}
+.video-access-browser{
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+  padding:8px 11px;
+  border:1px solid var(--ink);
+  font-size:11px;
+  text-decoration:none;
+  white-space:nowrap;
+  transition:transform .2s ease,border-color .2s ease,color .2s ease;
+}
+.video-access-browser:hover{
+  transform:translateY(-1px);
+  border-color:var(--accent);
+  color:var(--accent);
+}
+@media(max-width:680px){
+  .video-access-card{
+    align-items:flex-start;
+    flex-direction:column;
+  }
+  .video-access-actions{
+    width:100%;
+    justify-content:space-between;
+  }
+}
+
+
+/* Corrected: brand video cards stay in the original small four-card layout. */
+.story-grid.story-grid-four:has(.video-link-card){
+  grid-template-columns:repeat(4,minmax(0,1fr));
+}
+.story-grid.story-grid-four:has(.video-link-card) .story-card img{
+  width:100%;
+  height:auto;
+  max-height:260px;
+  object-fit:contain;
+}
+@media(max-width:1100px){
+  .story-grid.story-grid-four:has(.video-link-card){grid-template-columns:repeat(4,minmax(0,1fr));}
+}
+@media(max-width:760px){
+  .story-grid.story-grid-four:has(.video-link-card){grid-template-columns:repeat(2,minmax(0,1fr));}
+}
+
+.wechat-source-card{margin-top:22px;display:flex;align-items:center;gap:16px;width:min(100%,560px);padding:12px 14px;border:1px solid rgba(169,46,46,.20);background:rgba(250,249,246,.76);border-radius:12px}
+.wechat-source-qr{width:72px;height:72px;flex:0 0 72px;padding:5px;background:var(--paper);border:1px solid rgba(24,34,45,.10);border-radius:8px;display:block}
+.wechat-source-copy{min-width:0;flex:1}.wechat-source-kicker{color:var(--accent);font-size:10px;font-weight:800;letter-spacing:.10em;margin-bottom:3px}.wechat-source-copy strong{display:block;font-size:14px;line-height:1.35}.wechat-source-copy p{margin:3px 0 0;color:var(--muted);font-size:11px;line-height:1.45}
+.wechat-source-link{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;padding:7px 10px;border:1px solid var(--ink);font-size:10px;white-space:nowrap;transition:.2s ease}.wechat-source-link:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-1px)}
+@media(max-width:560px){.wechat-source-card{align-items:flex-start}.wechat-source-link{display:none}}
+
+
+/* V7 — About collage: three real photos, connected by one continuous hand-drawn line.
+   Photos are kept as original image data; this layer only changes their placement/mask. */
+.about-photo-row{
+  position:relative;
+  display:grid;
+  grid-template-columns:220px 235px 190px;
+  gap:24px;
+  align-items:center;
+  width:min(100%,720px);
+  margin-top:46px;
+  padding:18px 12px 30px 8px;
+}
+.about-photo-row::before{
+  content:"";
+  position:absolute;
+  left:42px;
+  bottom:18px;
+  width:190px;
+  height:92px;
+  background:rgba(214,229,239,.38);
+  border-radius:48% 52% 44% 56%;
+  transform:rotate(-5deg);
+  z-index:0;
+}
+.about-photo-row::after{
+  content:"";
+  position:absolute;
+  right:4px;
+  top:12px;
+  width:76px;
+  height:76px;
+  border:1.4px solid var(--accent);
+  border-radius:50%;
+  opacity:.28;
+  z-index:0;
+}
+.about-doodle{z-index:4;}
+.about-photo{
+  position:relative;
+  z-index:2;
+  margin:0;
+  background:transparent;
+  overflow:visible;
+}
+.about-photo img{
+  position:relative;
+  width:100%;
+  height:auto;
+  display:block;
+  border:0;
+  background:transparent;
+  box-shadow:none;
+  filter:none;
+  transition:transform .3s ease;
+}
+.about-photo:first-child{transform:rotate(-2.4deg) translateY(9px);}
+.about-photo:nth-of-type(2){transform:rotate(1.8deg) translateY(-2px);}
+.about-photo-third{transform:rotate(3.2deg) translateY(13px) !important;}
+/* irregular editorial edges — no retouching of the actual pixels */
+.about-photo:first-child img{
+  clip-path:polygon(8% 0,92% 0,100% 8%,96% 22%,100% 39%,94% 57%,100% 76%,91% 100%,10% 100%,2% 91%,6% 73%,0 56%,5% 39%,1% 18%);
+  -webkit-clip-path:polygon(8% 0,92% 0,100% 8%,96% 22%,100% 39%,94% 57%,100% 76%,91% 100%,10% 100%,2% 91%,6% 73%,0 56%,5% 39%,1% 18%);
+}
+.about-photo:nth-of-type(2) img{
+  clip-path:polygon(3% 10%,16% 2%,34% 6%,52% 0,70% 5%,89% 2%,100% 12%,96% 31%,100% 52%,94% 73%,99% 91%,83% 100%,62% 94%,43% 100%,24% 94%,7% 99%,0 85%,5% 66%,0 46%,5% 28%);
+  -webkit-clip-path:polygon(3% 10%,16% 2%,34% 6%,52% 0,70% 5%,89% 2%,100% 12%,96% 31%,100% 52%,94% 73%,99% 91%,83% 100%,62% 94%,43% 100%,24% 94%,7% 99%,0 85%,5% 66%,0 46%,5% 28%);
+}
+.about-photo-third img{
+  clip-path:polygon(10% 2%,34% 0,60% 5%,88% 2%,100% 14%,96% 36%,100% 58%,95% 82%,88% 100%,64% 96%,40% 100%,18% 95%,3% 83%,7% 60%,0 39%,5% 17%);
+  -webkit-clip-path:polygon(10% 2%,34% 0,60% 5%,88% 2%,100% 14%,96% 36%,100% 58%,95% 82%,88% 100%,64% 96%,40% 100%,18% 95%,3% 83%,7% 60%,0 39%,5% 17%);
+}
+.about-photo-third::before{
+  content:"";
+  position:absolute;
+  right:-8px;
+  bottom:26px;
+  width:58px;
+  height:20px;
+  background:rgba(255,226,164,.72);
+  transform:rotate(12deg);
+  border-radius:2px;
+  z-index:-1;
+}
+.about-photo-third::after{
+  content:"✦";
+  position:absolute;
+  left:-18px;
+  top:28%;
+  color:var(--accent);
+  font-size:20px;
+  transform:rotate(-12deg);
+  z-index:5;
+}
+.about-photo:hover img{box-shadow:none;}
+.about-photo:first-child:hover img{transform:translateY(-3px) rotate(1deg);}
+.about-photo:nth-of-type(2):hover img{transform:translateY(-3px) rotate(-1deg);}
+.about-photo-third:hover img{transform:translateY(-3px) rotate(-1deg);}
+@media(max-width:900px){
+  .about-photo-row{grid-template-columns:1fr 1fr 1fr;width:100%;gap:14px;}
+}
+@media(max-width:680px){
+  .about-photo-row{grid-template-columns:1fr 1fr;gap:12px;padding:24px 5px 28px;}
+  .about-photo-third{grid-column:1 / -1;width:48%;justify-self:center;transform:rotate(2.5deg) translateY(0) !important;}
+  .about-doodle{display:block;}
+}
+@media(max-width:480px){
+  .about-photo-row{gap:8px;}
+  .about-photo-third{width:58%;}
+  .about-doodle{opacity:.72;}
+}
+
+</style>
+</head>
+<body>
+<div aria-hidden="true" id="customCursor"></div>
+<div class="container">
+<nav>
+<div class="logo"><span data-cn="鹿自然" data-en="Nature Lu" data-i18n="1">鹿自然</span></div>
+<div class="navlinks">
+<a href="#about"><span data-cn="关于我" data-en="About" data-i18n="1">关于我</span></a>
+<a href="#experience"><span data-cn="工作经历" data-en="Experience" data-i18n="1">工作经历</span></a>
+<a href="#projects"><span data-cn="项目经历" data-en="Selected Projects" data-i18n="1">项目经历</span></a>
+<a href="#visuals"><span data-cn="大型活动" data-en="Large-Scale Events" data-i18n="1">大型活动</span></a>
+<a href="#people-projects"><span data-cn="项目体验" data-en="Project Experiences" data-i18n="1">项目体验</span></a>
+<a href="#content-production"><span data-cn="数字传播" data-en="Digital &amp; Content" data-i18n="1">数字传播</span></a>
+<a href="#visual-design"><span data-cn="视觉设计" data-en="Visual Design" data-i18n="1">视觉设计</span></a>
+<a href="#recognition"><span data-cn="表彰与认可" data-en="Recognition" data-i18n="1">表彰与认可</span></a>
+<a href="#contact"><span data-cn="联系我" data-en="Contact" data-i18n="1">联系我</span></a>
+<button aria-label="Switch language" class="nav-lang" id="languageToggle" type="button">EN</button></div></nav>
+<section class="hero" style="border-top:0">
+<div>
+<div class="kicker"><span data-cn="品牌传播 · 内容策划 · 项目运营" data-en="Brand Communications · Content Strategy · Project Operations" data-i18n="1">品牌传播 · 内容策划 · 项目运营</span></div>
+<h1><span data-cn="把品牌，" data-en="Turning brands" data-i18n="1">把品牌，</span><br/><span data-cn="做成值得被" data-en="into experiences" data-i18n="1">做成值得被</span><br/><span data-cn="选择的体验。" data-en="worth choosing." data-i18n="1">选择的体验。</span></h1>
+<h2><span data-cn="鹿自然" data-en="Nature Lu" data-i18n="1">鹿自然</span></h2>
+<p><span data-cn="5年品牌传播与项目经验，现就读于新南威尔士大学公共关系与广告硕士。擅长从品牌内容、整合活动到用户体验，把传播目标真正落到项目和结果上。" data-en="Five years of experience across brand communications and project delivery. Currently completing a Master’s in Public Relations and Advertising at UNSW. I work across brand content, integrated events and user experience, turning communication goals into projects and measurable outcomes." data-i18n="1">5年品牌传播与项目经验，现就读于新南威尔士大学公共关系与广告硕士。擅长从品牌内容、整合活动到用户体验，把传播目标真正落到项目和结果上。</span></p>
+<div class="cta">
+<a class="btn primary" href="#experience"><span data-cn="查看工作经历" data-en="VIEW EXPERIENCE" data-i18n="1">查看工作经历</span></a>
+<a class="btn" href="#projects"><span data-cn="查看项目经历" data-en="VIEW PROJECTS" data-i18n="1">查看项目经历</span></a>
+<a class="btn resume-hero-btn" data-download-cn="鹿自然_个人简历.pdf" data-download-en="Nature_Lu_CV.pdf" download="鹿自然_个人简历.pdf" href="#" id="heroResumeDownload"><span data-cn="下载简历" data-en="DOWNLOAD CV" data-i18n="1">下载简历</span></a>
+</div>
+</div>
+<div class="hero-card">
+<div>
+<small><span data-cn="毕业于" data-en="EDUCATION" data-i18n="1">毕业于</span></small>
+<div class="name" style="margin-top:16px"><span data-cn="新南威尔士大学" data-en="UNSW Sydney" data-i18n="1">新南威尔士大学</span></div>
+<div style="margin-top:12px"><span data-cn="公共关系与广告 · 硕士 · 2026" data-en="Master of Public Relations &amp; Advertising · 2026" data-i18n="1">公共关系与广告 · 硕士 · 2026</span></div>
+</div>
+<div class="stats">
+<div class="stat"><b data-count="5" data-suffix="年"><span data-cn="0年" data-en="0 years" data-i18n="1">0年</span></b><span><span data-cn="品牌传播经验" data-en="years in brand communications" data-i18n="1">品牌传播经验</span></span></div>
+<div class="stat"><b data-count="32" data-suffix="部"><span data-cn="0部" data-en="0 videos" data-i18n="1">0部</span></b><span><span data-cn="校园品牌视频" data-en="Campus Brand Videos" data-i18n="1">校园品牌视频</span></span></div>
+<div class="stat"><b data-count="40" data-suffix="+">0+</b><span><span data-cn="大型品牌活动" data-en="Large-Scale Brand Events" data-i18n="1">大型品牌活动</span></span></div>
+<div class="stat"><b data-count="1.5" data-decimal="1" data-suffix="万"><span data-cn="0万" data-en="0K" data-i18n="1">0万</span></b><span><span data-cn="抖音账号粉丝增长至" data-en="Douyin followers grown to" data-i18n="1">抖音账号粉丝增长至</span></span></div>
+</div>
+</div>
+</section>
+<section data-reveal="" id="about">
+<div class="section-head">
+<h2><span data-cn="关于我" data-en="About" data-i18n="1">关于我</span></h2>
+<p><span data-cn="我长期在教育场景里做品牌、传播和项目，也真正参与过学生发展、校园体验、教育产品与招生转化。" data-en="My work sits at the intersection of education, brand, communications and project delivery — with hands-on experience in student development, campus experience, education products and admissions conversion." data-i18n="1">我长期在教育场景里做品牌、传播和项目，也真正参与过学生发展、校园体验、教育产品与招生转化。</span></p>
+</div>
+<div class="about-photo-row">
+<svg class="about-doodle" viewBox="0 0 680 390" preserveAspectRatio="none" aria-hidden="true">
+  <path d="M18 245 C90 210, 92 82, 174 68 C238 58, 252 120, 294 147 C335 173, 344 217, 382 214 C438 209, 442 120, 505 110 C560 101, 582 158, 658 145"/>
+  <path class="blue" d="M42 292 C92 318, 128 300, 152 274 C180 244, 198 252, 216 278"/>
+  <path class="ink dash" d="M300 46 C355 18, 405 25, 443 52 C474 74, 507 72, 548 48"/>
+  <circle class="blue" cx="20" cy="246" r="4"/>
+  <circle cx="658" cy="145" r="4"/>
+  <path class="ink" d="M104 48 l6 12 l13 1 l-10 8 l3 13 l-12 -7 l-11 7 l3 -13 l-10 -8 l13 -1 z"/>
+  <path d="M577 287 c8 -10 18 -10 26 0 c-8 10 -18 10 -26 0z"/>
+  <path class="blue" d="M583 274 l8 -9 l8 9"/>
+</svg>
+<span class="about-doodle-label one">CAMPUS → LIFE</span>
+<span class="about-doodle-label two">REAL · CURIOUS · HUMAN</span><figure class="about-photo"><img alt="鹿自然个人照片" data-alt-cn="鹿自然个人照片" data-alt-en="Portrait of Nature Lu" loading="lazy" src="assets/img-01-ebdc857c46d0.jpg"/></figure><figure class="about-photo"><img alt="鹿自然个人照片" data-alt-cn="鹿自然个人照片" data-alt-en="Portrait of Nature Lu" loading="lazy" src="assets/img-02-6892ea22ebd8.jpg"/></figure><figure class="about-photo about-photo-third"><img alt="舞蹈与建筑空间照片" data-alt-cn="舞蹈与建筑空间照片" data-alt-en="Movement and architecture" loading="lazy" src="assets/img-03-3f1d0685e779.jpg"/></figure></div>
+<div class="intro-grid about-copy">
+<div>
+<p><strong><span data-cn="我的优势不只是“会传播”。" data-en="My strength goes beyond communication." data-i18n="1">我的优势不只是“会传播”。</span></strong><br/><span data-cn="
+      过去5年，我在香港中文大学（深圳）本科招生办公室负责品牌宣传相关工作，从大型教育活动、内容生产、视觉体系，到学生团队、招生渠道和对外合作，参与完整的品牌与招生链路。" data-en="
+      For five years, I worked in the Undergraduate Admissions Office at The Chinese University of Hong Kong, Shenzhen, leading brand communications across large-scale education events, content production, visual systems, student teams, admissions channels and external partnerships." data-i18n="1">
+      过去5年，我在香港中文大学（深圳）本科招生办公室负责品牌宣传相关工作，从大型教育活动、内容生产、视觉体系，到学生团队、招生渠道和对外合作，参与完整的品牌与招生链路。</span></p>
+<p><span data-cn="同时，我兼任书院全人导师，并独立负责过校园访客产品、综合评价测试、深度校园参访等项目。" data-en="Alongside my full-time role, I served as a holistic development mentor in the college and independently led projects including campus visitor experiences, holistic assessment testing and immersive campus visits." data-i18n="1">同时，我兼任书院全人导师，并独立负责过校园访客产品、综合评价测试、深度校园参访等项目。</span></p>
+</div>
+<div>
+<p><strong><span data-cn="擅长以下交叉领域：" data-en="Core areas of practice:" data-i18n="1">擅长以下交叉领域：</span></strong></p>
+<div class="tags">
+<span class="tag"><span data-cn="品牌传播" data-en="Brand Communications" data-i18n="1">品牌传播</span></span><span class="tag"><span data-cn="招生营销" data-en="Admissions Marketing" data-i18n="1">招生营销</span></span><span class="tag"><span data-cn="内容策划" data-en="Content Strategy" data-i18n="1">内容策划</span></span>
+<span class="tag"><span data-cn="大型活动" data-en="Large-Scale Events" data-i18n="1">大型活动</span></span><span class="tag"><span data-cn="项目运营" data-en="Project Operations" data-i18n="1">项目运营</span></span><span class="tag"><span data-cn="用户体验" data-en="User Experience" data-i18n="1">用户体验</span></span>
+<span class="tag"><span data-cn="校园参访" data-en="Campus Experiences" data-i18n="1">校园参访</span></span><span class="tag"><span data-cn="研学产品" data-en="Experiential Education" data-i18n="1">研学产品</span></span><span class="tag"><span data-cn="学生运营" data-en="Student Engagement" data-i18n="1">学生运营</span></span>
+<span class="tag"><span data-cn="项目管理" data-en="Project Management" data-i18n="1">项目管理</span></span><span class="tag"><span data-cn="渠道合作" data-en="Partnerships &amp; Channels" data-i18n="1">渠道合作</span></span><span class="tag"><span data-cn="数字化运营" data-en="Digital Operations" data-i18n="1">数字化运营</span></span>
+</div>
+</div>
+</div>
+</section>
+<section data-reveal="" id="experience">
+<div class="section-head">
+<h2><span data-cn="工作经历" data-en="Experience" data-i18n="1">工作经历</span></h2>
+<p></p>
+</div>
+<div class="work">
+<div class="work-meta">2020.09<br/>—<br/>2025.03</div>
+<div>
+<h3><span data-cn="香港中文大学（深圳）" data-en="The Chinese University of Hong Kong, Shenzhen" data-i18n="1">香港中文大学（深圳）</span></h3>
+<div class="role"><span data-cn="本科招生办公室｜品牌宣传组｜高级执行助理" data-en="Undergraduate Admissions Office | Brand Communications | Senior Executive Assistant" data-i18n="1">本科招生办公室｜品牌宣传组｜高级执行助理</span></div>
+<div class="work-block">
+<h4><span data-cn="大型品牌活动与渠道拓展" data-en="Large-Scale Brand Events &amp; Channel Development" data-i18n="1">大型品牌活动与渠道拓展</span></h4>
+<p><span data-cn="以品牌市场拓展和优质高中渠道建设为核心目标，操盘40+场、单场1000+人的大型品牌活动，包括全国中学校长论坛、本科招生校园开放日等，负责方案策划、资源整合、现场落地及数据复盘。" data-en="Led 40+ large-scale brand events, many serving 1,000+ participants, including national principals’ forums and undergraduate admissions open days. Owned planning, resource integration, on-site delivery and post-event analysis, with a focus on brand growth and high-quality secondary-school channels." data-i18n="1">以品牌市场拓展和优质高中渠道建设为核心目标，操盘40+场、单场1000+人的大型品牌活动，包括全国中学校长论坛、本科招生校园开放日等，负责方案策划、资源整合、现场落地及数据复盘。</span></p>
+<p><span data-cn="协调学院、校办、安保、后勤、宣传、信息技术、学生事务、财务等12个跨部门资源；主导供应商招投标与长期合作体系，筛选15家优质供应商，使活动平均成本降低10%。" data-en="Coordinated 12 cross-functional teams across colleges, administration, security, facilities, communications, IT, student affairs and finance. Led supplier selection and long-term partnership development, building a pool of 15 high-quality vendors and reducing average event costs by 10%." data-i18n="1">协调学院、校办、安保、后勤、宣传、信息技术、学生事务、财务等12个跨部门资源；主导供应商招投标与长期合作体系，筛选15家优质供应商，使活动平均成本降低10%。</span></p>
+<p><span data-cn="通过高规格品牌活动触达全国重点中学校长及教育主管部门，搭建覆盖全国300+重点公立中学的进校渠道网络。" data-en="Used high-profile brand events to engage principals and education authorities nationwide, building an outreach network spanning 300+ key public secondary schools." data-i18n="1">通过高规格品牌活动触达全国重点中学校长及教育主管部门，搭建覆盖全国300+重点公立中学的进校渠道网络。</span></p>
+</div>
+<div class="work-block">
+<h4><span data-cn="品牌内容生产与视觉体系" data-en="Brand Content &amp; Visual Systems" data-i18n="1">品牌内容生产与视觉体系</span></h4>
+<p><span data-cn="全周期操盘32部校园品牌视频，从需求拆解、脚本打磨、供应商对接、拍摄执行、后期监修到全平台宣发；围绕宣讲季、开放日、申请季、录取季建立内容生产机制。" data-en="Led 32 campus brand videos end-to-end, from brief development and script refinement to vendor coordination, production, post-production supervision and multi-platform distribution. Built repeatable content workflows around recruitment talks, open days, application season and admissions season." data-i18n="1">全周期操盘32部校园品牌视频，从需求拆解、脚本打磨、供应商对接、拍摄执行、后期监修到全平台宣发；围绕宣讲季、开放日、申请季、录取季建立内容生产机制。</span></p>
+<p><span data-cn="主导200+核心平面宣传物料及200+实体品牌衍生品的企划与落地，建立供应商管理、交付和风险控制机制，实现品牌资产100%准时、零差错交付。" data-en="Planned and delivered 200+ key visual assets and 200+ physical branded items, establishing supplier, delivery and risk-control processes that achieved 100% on-time, error-free delivery of brand assets." data-i18n="1">主导200+核心平面宣传物料及200+实体品牌衍生品的企划与落地，建立供应商管理、交付和风险控制机制，实现品牌资产100%准时、零差错交付。</span></p>
+<p><span data-cn="搭建全域获客矩阵，统筹6个系列主题名师直播及全国19省60所重点中学线上冬令营，运营288名头部生源，173人报考、89人录取，核心用户转化率提升22%。" data-en="Built an integrated acquisition matrix, coordinating six themed expert livestream series and online winter programmes across 60 key schools in 19 provinces. Managed a pipeline of 288 high-value prospective students; 173 applied and 89 were admitted, with core-user conversion increasing by 22%." data-i18n="1">搭建全域获客矩阵，统筹6个系列主题名师直播及全国19省60所重点中学线上冬令营，运营288名头部生源，173人报考、89人录取，核心用户转化率提升22%。</span></p>
+</div>
+<div class="work-block">
+<h4><span data-cn="学生团队与下沉渠道" data-en="Student Teams &amp; Regional Outreach" data-i18n="1">学生团队与下沉渠道</span></h4>
+<p><span data-cn="运营133人学生大使团，建立三级组织架构及考核、培训、评优体系；连续五年统筹“感恩母校行”，带队进驻300+重点公立中学。" data-en="Managed a 133-member student ambassador team with a three-level structure covering assessment, training and recognition. Coordinated the “Back to My School” programme for five consecutive years, sending student teams to 300+ key public secondary schools." data-i18n="1">运营133人学生大使团，建立三级组织架构及考核、培训、评优体系；连续五年统筹“感恩母校行”，带队进驻300+重点公立中学。</span></p>
+<p><span data-cn="搭建数字化管理系统，使团队核心成员业务达标率提升25%，单校项目筹备周期由7天压缩至2天。" data-en="Built a digital management system that increased core-member performance compliance by 25% and reduced single-school project preparation time from seven days to two." data-i18n="1">搭建数字化管理系统，使团队核心成员业务达标率提升25%，单校项目筹备周期由7天压缩至2天。</span></p>
+<p><span data-cn="牵头搭建并运营香港中文大学（深圳）官方抖音矩阵，账号粉丝由4000增长至1.5万，累计播放量突破1000万，单条最高点赞2.6万，累计引流有效招生咨询超2800人。" data-en="Led the launch and operation of CUHK-Shenzhen’s official Douyin content ecosystem. Grew followers from 4,000 to 15,000, surpassed 10 million cumulative views, reached 26,000 likes on the top-performing post, and generated 2,800+ qualified admissions enquiries." data-i18n="1">牵头搭建并运营香港中文大学（深圳）官方抖音矩阵，账号粉丝由4000增长至1.5万，累计播放量突破1000万，单条最高点赞2.6万，累计引流有效招生咨询超2800人。</span></p>
+</div>
+<div class="work-block">
+<h4><span data-cn="政企对接与教育合作" data-en="Government, Education &amp; External Partnerships" data-i18n="1">政企对接与教育合作</span></h4>
+<p><span data-cn="担任重点中学、教育主管部门、科研机构等多方核心对接窗口，负责合作洽谈及项目落地。" data-en="Served as a key liaison for leading secondary schools, education authorities and research institutions, managing partnership discussions and project delivery." data-i18n="1">担任重点中学、教育主管部门、科研机构等多方核心对接窗口，负责合作洽谈及项目落地。</span></p>
+<p><span data-cn="针对教育系统高层公务来访、科研专家学术交流、中学研学团队参访、社会及零散访客四类场景建立接待SOP，并将生源引导、意向跟进等转化节点融入完整流程。" data-en="Developed visitor SOPs across four scenarios — senior education delegations, academic exchanges, school study groups and individual/social visitors — integrating prospective-student guidance and follow-up into the overall experience." data-i18n="1">针对教育系统高层公务来访、科研专家学术交流、中学研学团队参访、社会及零散访客四类场景建立接待SOP，并将生源引导、意向跟进等转化节点融入完整流程。</span></p>
+<p><span data-cn="搭建覆盖全国26省、15个教育局及300+重点中学的合作网络。" data-en="Built a partnership network spanning 26 provinces, 15 education bureaus and 300+ key secondary schools." data-i18n="1">搭建覆盖全国26省、15个教育局及300+重点中学的合作网络。</span></p>
+</div>
+</div>
+</div>
+</section>
+<section>
+<div class="numbers">
+<div class="number"><b>40+</b><span><span data-cn="大型品牌活动" data-en="Large-Scale Brand Events" data-i18n="1">大型品牌活动</span></span></div>
+<div class="number"><b>32</b><span><span data-cn="校园品牌视频" data-en="Campus Brand Videos" data-i18n="1">校园品牌视频</span></span></div>
+<div class="number"><b>300+</b><span><span data-cn="重点中学渠道" data-en="Key Secondary-School Channels" data-i18n="1">重点中学渠道</span></span></div>
+<div class="number"><b>2,800+</b><span><span data-cn="有效招生咨询" data-en="Qualified Admissions Enquiries" data-i18n="1">有效招生咨询</span></span></div>
+</div>
+</section>
+<section data-reveal="" id="projects">
+<div class="section-head">
+<h2><span data-cn="项目经历" data-en="Selected Projects" data-i18n="1">项目经历</span></h2>
+<p><span data-cn="这些项目不是工作职责的重复，而是我独立承担、解决具体问题并形成结果的代表性项目。" data-en="These projects go beyond my formal responsibilities. They represent work I independently owned, problems I solved and outcomes I delivered." data-i18n="1">这些项目不是工作职责的重复，而是我独立承担、解决具体问题并形成结果的代表性项目。</span></p>
+</div>
+<div class="projects">
+<article class="project">
+<div>
+<div class="num"><span data-cn="01 / 项目体验与产品运营" data-en="01 / PROJECT EXPERIENCE &amp; PRODUCT OPERATIONS" data-i18n="1">01 / 项目体验与产品运营</span></div>
+<h3><span data-cn="“参观港中深”全链路产品运营" data-en="“Visit CUHK-Shenzhen” End-to-End Visitor Experience" data-i18n="1">“参观港中深”全链路产品运营</span></h3>
+<p><span data-cn="针对校园访客量激增、跨部门协同混乱及线下生源数据流失，主导搭建数字化预约系统与访客运营体系。协调12个部门，将线上预约、入校管理、校园探索和升学意向连接成完整转化闭环。" data-en="Responding to rapidly growing visitor demand, fragmented cross-department coordination and loss of offline prospective-student data, I led the development of a digital booking system and visitor operations framework. Coordinated 12 departments to connect online booking, campus entry, campus exploration and study intentions into a complete conversion journey." data-i18n="1">针对校园访客量激增、跨部门协同混乱及线下生源数据流失，主导搭建数字化预约系统与访客运营体系。协调12个部门，将线上预约、入校管理、校园探索和升学意向连接成完整转化闭环。</span></p>
+</div>
+<div class="metrics"><span data-cn="运营效率提升40% · 深度咨询转化率由15%提升至50%+ · 沉淀数万条高质量生源数据" data-en="40% increase in operational efficiency · deep-consultation conversion from 15% to 50%+ · tens of thousands of high-quality prospective-student records" data-i18n="1">运营效率提升40% · 深度咨询转化率由15%提升至50%+ · 沉淀数万条高质量生源数据</span></div>
+</article>
+<article class="project">
+<div>
+<div class="num"><span data-cn="02 / 产品与体验设计" data-en="02 / PRODUCT &amp; EXPERIENCE DESIGN" data-i18n="1">02 / 产品与体验设计</span></div>
+<h3><span data-cn="摆渡学堂·名师进名校中学生深度参访" data-en="Ba Du Academy · Immersive Secondary-School Campus Experience" data-i18n="1">摆渡学堂·名师进名校中学生深度参访</span></h3>
+<p><span data-cn="担任课程体验设计师，针对高端生源获客需求，从0到1开发“学术课程+城市探索”差异化教育产品，引入STEM课程、AR校园探索及中英双语双轨服务，并建立招募、培训、考核、排班SOP。" data-en="As the learning-experience designer, I developed a differentiated education product from zero to one around high-value student acquisition needs, combining academic courses with city exploration. Introduced STEM modules, AR campus exploration and bilingual service tracks, alongside SOPs for recruitment, training, assessment and scheduling." data-i18n="1">担任课程体验设计师，针对高端生源获客需求，从0到1开发“学术课程+城市探索”差异化教育产品，引入STEM课程、AR校园探索及中英双语双轨服务，并建立招募、培训、考核、排班SOP。</span></p>
+</div>
+<div class="metrics"><span data-cn="服务团队扩容至65人 · 覆盖20+竞赛强校 · 触达500+头部优质生源" data-en="Service team expanded to 65 · reached 20+ high-performing competition schools · engaged 500+ high-value prospective students" data-i18n="1">服务团队扩容至65人 · 覆盖20+竞赛强校 · 触达500+头部优质生源</span></div>
+</article>
+<article class="project">
+<div>
+<div class="num"><span data-cn="03 / 大型项目运营管理" data-en="03 / LARGE-SCALE PROJECT OPERATIONS" data-i18n="1">03 / 大型项目运营管理</span></div>
+<h3><span data-cn="香港中文大学（深圳）综合评价测试·杭州场" data-en="CUHK-Shenzhen Holistic Assessment Test · Hangzhou" data-i18n="1">香港中文大学（深圳）综合评价测试·杭州场</span></h3>
+<p><span data-cn="连续三年担任项目执行负责人，独立对接教育局、考点学校、电力、公安等8项核心行政资源。针对高并发场景设计封闭式考生动线、咨询点布局及资源配置。" data-en="Served as project lead for three consecutive years, independently coordinating eight critical administrative resources including the education bureau, test-centre schools, utilities and police. Designed controlled candidate flows, consultation-point layouts and resource allocation for high-volume operations." data-i18n="1">连续三年担任项目执行负责人，独立对接教育局、考点学校、电力、公安等8项核心行政资源。针对高并发场景设计封闭式考生动线、咨询点布局及资源配置。</span></p>
+</div>
+<div class="metrics"><span data-cn="4天 · 32场次 · 2,000+考生零失误入场 · 咨询转化率提升15%" data-en="4 days · 32 sessions · 2,000+ candidates admitted without operational errors · consultation conversion +15%" data-i18n="1">4天 · 32场次 · 2,000+考生零失误入场 · 咨询转化率提升15%</span></div>
+</article>
+<article class="project">
+<div>
+<div class="num"><span data-cn="04 / 学生发展与社区建设" data-en="04 / STUDENT DEVELOPMENT &amp; COMMUNITY BUILDING" data-i18n="1">04 / 学生发展与社区建设</span></div>
+<h3><span data-cn="学勤书院·全人导师项目" data-en="Xueqin College · Holistic Development Mentor" data-i18n="1">学勤书院·全人导师项目</span></h3>
+<p><span data-cn="在本科招生办公室全职工作期间兼任全人导师，负责一层楼50名本科生的学业与生活适应引导，并通过一对一沟通、新生破冰、节日庆典、期末减压等活动建设书院社区文化。" data-en="Alongside my full-time admissions role, I served as a holistic development mentor for 50 undergraduate students on one residential floor. I supported academic and life adjustment while building community through one-to-one conversations, orientation activities, celebrations and end-of-semester wellbeing activities." data-i18n="1">在本科招生办公室全职工作期间兼任全人导师，负责一层楼50名本科生的学业与生活适应引导，并通过一对一沟通、新生破冰、节日庆典、期末减压等活动建设书院社区文化。</span></p>
+</div>
+<div class="metrics"><span data-cn="20+社区活动 · 连续4年获“优秀导师” · 2022年获“杰出导师”“最受学生欢迎导师”" data-en="20+ community activities · “Outstanding Mentor” for four consecutive years · 2022 “Distinguished Mentor” and “Most Popular Mentor”" data-i18n="1">20+社区活动 · 连续4年获“优秀导师” · 2022年获“杰出导师”“最受学生欢迎导师”</span></div>
+</article>
+</div>
+</section>
+<section data-reveal="" id="visuals">
+<div class="section-head">
+<h2><span data-cn="大型活动现场" data-en="Event Highlights" data-i18n="1">大型活动现场</span></h2>
+<p><span data-cn="我长期负责大型品牌活动的策划、资源协调、现场执行与后续传播。这些现场记录也构成了我最重要的项目作品之一。" data-en="I have long led the planning, resource coordination, on-site delivery and post-event communications of large-scale brand events. These records are also among the strongest visual evidence of my project work." data-i18n="1">我长期负责大型品牌活动的策划、资源协调、现场执行与后续传播。这些现场记录也构成了我最重要的项目作品之一。</span></p>
+</div>
+<div class="gallery">
+<figure class="gallery-item"><img alt="“大中衔接”通识教育专题研讨会暨全国高中级部主任论坛" data-alt-cn="“大中衔接”通识教育专题研讨会暨全国高中级部主任论坛" data-alt-en="“Bridging Secondary &amp; Higher Education” General Education Seminar &amp; National Grade-Level Directors Forum" src="assets/img-04-498be016cfda.jpg"/><figcaption><span data-cn="“大中衔接”通识教育专题研讨会暨全国高中级部主任论坛" data-en="“Bridging Secondary &amp; Higher Education” General Education Seminar &amp; National Grade-Level Directors Forum" data-i18n="1">“大中衔接”通识教育专题研讨会暨全国高中级部主任论坛</span></figcaption></figure>
+<figure class="gallery-item"><img alt="通识教育圆桌论坛" data-alt-cn="通识教育圆桌论坛" data-alt-en="General Education Roundtable" src="assets/img-05-df1d064d3c95.jpg"/><figcaption><span data-cn="通识教育圆桌论坛" data-en="General Education Roundtable" data-i18n="1">通识教育圆桌论坛</span></figcaption></figure>
+<figure class="gallery-item"><img alt="AI时代大中衔接通识教育论坛" data-alt-cn="AI时代大中衔接通识教育论坛" data-alt-en="General Education Forum in the Age of AI" src="assets/img-06-5cb8aa55975f.jpg"/><figcaption><span data-cn="AI时代大中衔接通识教育论坛" data-en="General Education Forum in the Age of AI" data-i18n="1">AI时代大中衔接通识教育论坛</span></figcaption></figure>
+<figure class="gallery-item"><img alt="论坛主题活动与嘉宾合影" data-alt-cn="论坛主题活动与嘉宾合影" data-alt-en="Forum Session &amp; Group Photo" src="assets/img-07-a9226a7faa31.jpg"/><figcaption><span data-cn="论坛主题活动与嘉宾合影" data-en="Forum Session &amp; Group Photo" data-i18n="1">论坛主题活动与嘉宾合影</span></figcaption></figure>
+<figure class="gallery-item"><img alt="通识教育课程现场" data-alt-cn="通识教育课程现场" data-alt-en="General Education Course" src="assets/img-08-b67c10f9ab2f.jpg"/><figcaption><span data-cn="通识教育课程现场" data-en="General Education Course" data-i18n="1">通识教育课程现场</span></figcaption></figure>
+<figure class="gallery-item"><img alt="全国高中校长论坛 / 大型教育活动" data-alt-cn="全国高中校长论坛 / 大型教育活动" data-alt-en="National Principals’ Forum / Large-Scale Education Event" src="assets/img-09-67f1f5a72f3a.jpg"/><figcaption><span data-cn="全国高中校长论坛 / 大型教育活动" data-en="National Principals’ Forum / Large-Scale Education Event" data-i18n="1">全国高中校长论坛 / 大型教育活动</span></figcaption></figure>
+<figure class="gallery-item"><img alt="全国高中校长论坛 / 主会场" data-alt-cn="全国高中校长论坛 / 主会场" data-alt-en="National Principals’ Forum / Main Venue" src="assets/img-10-d127dba25826.jpg"/><figcaption><span data-cn="全国高中校长论坛 / 主会场" data-en="National Principals’ Forum / Main Venue" data-i18n="1">全国高中校长论坛 / 主会场</span></figcaption></figure>
+<figure class="gallery-item"><img alt="全国高中校长论坛 / 院士论坛" data-alt-cn="全国高中校长论坛 / 院士论坛" data-alt-en="National Principals’ Forum / Academician Session" src="assets/img-11-492f95d5da80.jpg"/><figcaption><span data-cn="全国高中校长论坛 / 院士论坛" data-en="National Principals’ Forum / Academician Session" data-i18n="1">全国高中校长论坛 / 院士论坛</span></figcaption></figure>
+<figure class="gallery-item"><img alt="校园开放日 / 校园活动现场" data-alt-cn="校园开放日 / 校园活动现场" data-alt-en="Campus Open Day / On-Site Experience" src="assets/img-12-212265e12f88.jpg"/><figcaption><span data-cn="校园开放日 / 校园活动现场" data-en="Campus Open Day / On-Site Experience" data-i18n="1">校园开放日 / 校园活动现场</span></figcaption></figure>
+<figure class="gallery-item"><img alt="校园开放日 / 学生参访体验" data-alt-cn="校园开放日 / 学生参访体验" data-alt-en="Campus Open Day / Student Experience" src="assets/img-13-00e2a945cde7.jpg"/><figcaption><span data-cn="校园开放日 / 学生参访体验" data-en="Campus Open Day / Student Experience" data-i18n="1">校园开放日 / 学生参访体验</span></figcaption></figure>
+</div>
+</section>
+<section data-reveal="" id="content-production">
+<div class="section-head">
+<h2><span data-cn="内容生产与数字传播" data-en="Content Production &amp; Digital Communications" data-i18n="1">内容生产与数字传播</span></h2>
+<p><span data-cn="从“懂平台”到“把内容做出来”：我既带学生团队运营高效抖音账号，也负责更完整的品牌长视频项目，把选题、脚本、人员、场地与供应商协同串成一条制作链路。" data-en="From understanding the platform to making content happen: I have led student teams in running high-performing Douyin content while also managing full-scale brand video projects, connecting ideas, scripts, people, locations and suppliers into one production workflow." data-i18n="1">从“懂平台”到“把内容做出来”：我既带学生团队运营高效抖音账号，也负责更完整的品牌长视频项目，把选题、脚本、人员、场地与供应商协同串成一条制作链路。</span></p>
+</div>
+<div class="story-intro">
+<div>
+<div class="kicker"><span data-cn="05 / 抖音学生团队" data-en="05 / Douyin Student Team" data-i18n="1">05 / 抖音学生团队</span></div>
+<h3><span data-cn="懂平台，也懂年轻人的表达方式" data-en="Understanding the platform — and how young audiences communicate" data-i18n="1">懂平台，也懂年轻人的表达方式</span></h3>
+<p><span data-cn="我带领学生团队参与学校抖音账号运营，不只是安排“发什么”，而是持续观察平台语境、热点节奏与年轻用户的内容偏好，再把校园素材转化为更适合短视频传播的选题与表达。" data-en="I led students in operating the university’s Douyin account, going beyond deciding what to post. We continuously observed platform culture, trend cycles and young users’ preferences, then translated campus stories into topics and formats designed for short-form video." data-i18n="1">我带领学生团队参与学校抖音账号运营，不只是安排“发什么”，而是持续观察平台语境、热点节奏与年轻用户的内容偏好，再把校园素材转化为更适合短视频传播的选题与表达。</span></p>
+<div class="skill-tags">
+</div>
+</div>
+<div class="story-note">
+<b><span data-cn="从趋势，到内容" data-en="From trends to content" data-i18n="1">从趋势，到内容</span></b>
+<span><span data-cn="把校园日常转译成平台用户愿意停留、观看和分享的内容。" data-en="Turning everyday campus moments into content people want to stop, watch and share." data-i18n="1">把校园日常转译成平台用户愿意停留、观看和分享的内容。</span></span>
+</div>
+</div>
+<div class="story-grid story-grid-four">
+<figure class="story-card"><img alt="抖音团队｜选题、内容策划与账号运营" data-alt-cn="抖音团队｜选题、内容策划与账号运营" data-alt-en="Douyin Team | Topic Selection, Content Strategy &amp; Account Operations" src="assets/img-14-08c5b276d25c.jpg"/><figcaption><span data-cn="抖音团队｜选题、内容策划与账号运营" data-en="Douyin Team | Topic Selection, Content Strategy &amp; Account Operations" data-i18n="1">抖音团队｜选题、内容策划与账号运营</span></figcaption></figure>
+<figure class="story-card"><img alt="抖音团队｜学生创作者协作与内容打磨" data-alt-cn="抖音团队｜学生创作者协作与内容打磨" data-alt-en="Douyin Team | Student Creator Collaboration &amp; Content Refinement" src="assets/img-15-cd4baadd29d3.jpg"/><figcaption><span data-cn="抖音团队｜学生创作者协作与内容打磨" data-en="Douyin Team | Student Creator Collaboration &amp; Content Refinement" data-i18n="1">抖音团队｜学生创作者协作与内容打磨</span></figcaption></figure>
+<figure class="story-card"><img alt="抖音团队｜热点判断与内容生产" data-alt-cn="抖音团队｜热点判断与内容生产" data-alt-en="Douyin Team | Trend Judgement &amp; Content Production" src="assets/img-16-6bb9b7f4056e.jpg"/><figcaption><span data-cn="抖音团队｜热点判断与内容生产" data-en="Douyin Team | Trend Judgement &amp; Content Production" data-i18n="1">抖音团队｜热点判断与内容生产</span></figcaption></figure>
+<figure class="story-card"><img alt="抖音团队｜从创意到成片的协作" data-alt-cn="抖音团队｜从创意到成片的协作" data-alt-en="Douyin Team | From Idea to Final Cut" src="assets/img-17-144006ea8516.jpg"/><figcaption><span data-cn="抖音团队｜从创意到成片的协作" data-en="Douyin Team | From Idea to Final Cut" data-i18n="1">抖音团队｜从创意到成片的协作</span></figcaption></figure>
+</div>
+<div class="story-intro second">
+<div>
+<div class="kicker"><span data-cn="06 / 品牌长视频" data-en="06 / Long-Form Brand Video" data-i18n="1">06 / 品牌长视频</span></div>
+<h3><span data-cn="从一页脚本，到一次完整的拍摄现场" data-en="From one page of script to a complete production" data-i18n="1">从一页脚本，到一次完整的拍摄现场</span></h3>
+<p><span data-cn="在品牌长视频项目中，我负责前期创意与脚本制定，并推进拍摄所需的场地、人员、供应商等环节。相比单纯“写内容”，我更熟悉如何把创意转化成一个真正能够落地的制作项目。" data-en="For long-form brand video projects, I led early-stage creative development and scripting, while coordinating locations, people and suppliers required for production. More than simply writing content, I know how to turn an idea into a production plan that can actually happen." data-i18n="1">在品牌长视频项目中，我负责前期创意与脚本制定，并推进拍摄所需的场地、人员、供应商等环节。相比单纯“写内容”，我更熟悉如何把创意转化成一个真正能够落地的制作项目。</span></p>
+</div>
+<div class="story-quote"><span data-cn="“好创意只是起点。" data-en="“A good idea is only the starting point." data-i18n="1">“好创意只是起点。</span><br/><span data-cn="真正的工作，是让它按计划发生。”" data-en="The real work is making it happen as planned.”" data-i18n="1">真正的工作，是让它按计划发生。”</span></div>
+</div>
+<div class="story-grid story-grid-four">
+<figure class="story-card video-link-card" data-video-password="1124" data-video-url="https://pan.baidu.com/s/1ps8N_xl6T7TRpiCiN3iYVg?pwd=1124" role="link" tabindex="0"><img alt="品牌宣传片" data-alt-cn="品牌宣传片" data-alt-en="Brand Film" src="assets/img-18-b6e443bf418c.png"/><figcaption><span data-cn="品牌宣传片" data-en="Brand Film" data-i18n="1">品牌宣传片</span></figcaption><span aria-hidden="true" class="video-play-hint">▶ PLAY</span></figure>
+<figure class="story-card video-link-card" data-video-password="1124" data-video-url="https://pan.baidu.com/s/1ps8N_xl6T7TRpiCiN3iYVg?pwd=1124" role="link" tabindex="0"><img alt="校园宣传片" data-alt-cn="校园宣传片" data-alt-en="Campus Film" src="assets/img-19-1df95b86a2af.png"/><figcaption><span data-cn="校园宣传片" data-en="Campus Film" data-i18n="1">校园宣传片</span></figcaption><span aria-hidden="true" class="video-play-hint">▶ PLAY</span></figure>
+<figure class="story-card video-link-card" data-video-password="1124" data-video-url="https://pan.baidu.com/s/1ps8N_xl6T7TRpiCiN3iYVg?pwd=1124" role="link" tabindex="0"><img alt="招生宣传片" data-alt-cn="招生宣传片" data-alt-en="Admissions Film" src="assets/img-20-de1e3b0bc20e.png"/><figcaption><span data-cn="招生宣传片" data-en="Admissions Film" data-i18n="1">招生宣传片</span></figcaption><span aria-hidden="true" class="video-play-hint">▶ PLAY</span></figure>
+<figure class="story-card video-link-card" data-video-password="1124" data-video-url="https://pan.baidu.com/s/1ps8N_xl6T7TRpiCiN3iYVg?pwd=1124" role="link" tabindex="0"><img alt="活动宣传片" data-alt-cn="活动宣传片" data-alt-en="Event Film" src="assets/img-21-74f32a5df021.png"/><figcaption><span data-cn="活动宣传片" data-en="Event Film" data-i18n="1">活动宣传片</span></figcaption><span aria-hidden="true" class="video-play-hint">▶ PLAY</span></figure>
+</div>
+<div class="video-access-card" data-reveal>
+  <div class="video-access-copy">
+    <div class="video-access-kicker">
+      <span data-cn="视频合集入口" data-en="VIDEO COLLECTION" data-i18n="1">视频合集入口</span>
+    </div>
+    <strong>
+      <span data-cn="扫码观看完整视频合集" data-en="SCAN TO WATCH THE FULL VIDEO COLLECTION" data-i18n="1">扫码观看完整视频合集</span>
+    </strong>
+    <p>
+      <span data-cn="手机扫码直接进入百度网盘分享；电脑端也可点击右侧按钮打开。" data-en="Scan on mobile to open the Baidu Netdisk share, or use the browser button on desktop." data-i18n="1">手机扫码直接进入百度网盘分享；电脑端也可点击右侧按钮打开。</span>
+    </p>
+  </div>
+  <div class="video-access-actions">
+    <img class="video-access-qr" src="assets/img-22-2f286aecdf06.png" alt="视频合集二维码" data-alt-cn="视频合集二维码" data-alt-en="Video collection QR code"/>
+    <a class="video-access-browser" href="https://pan.baidu.com/s/1ps8N_xl6T7TRpiCiN3iYVg?pwd=1124" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">
+      <span data-cn="浏览器打开 ↗" data-en="OPEN IN BROWSER ↗" data-i18n="1">浏览器打开 ↗</span>
+    </a>
+  </div>
+</div>
+
+
+<div class="story-intro second">
+<div>
+<div class="kicker"><span data-cn="11 / 品牌活动周边" data-en="11 / Branded Event Materials" data-i18n="1">11 / 品牌活动周边</span></div>
+<h3><span data-cn="把品牌视觉继续做下去" data-en="Extending the brand beyond the screen" data-i18n="1">把品牌视觉继续做下去</span></h3>
+<p><span data-cn="围绕活动及品牌调性延展礼盒、包装、礼品袋等周边物料，并关注实际使用场景与成品呈现，让视觉设计不仅停留在屏幕上，而是成为参与者可以带走、使用和记住的品牌触点。" data-en="I extend event and brand identities into gift boxes, packaging, bags and other physical materials, with close attention to real-world use and final presentation. The goal is for design to become a brand touchpoint people can take away, use and remember." data-i18n="1">围绕活动及品牌调性延展礼盒、包装、礼品袋等周边物料，并关注实际使用场景与成品呈现，让视觉设计不仅停留在屏幕上，而是成为参与者可以带走、使用和记住的品牌触点。</span></p>
+</div>
+<div class="story-quote"><span data-cn="“活动结束之后，" data-en="“When the event ends," data-i18n="1">“活动结束之后，</span><br/><span data-cn="品牌体验还可以继续被带走。”" data-en="the brand experience can still travel with people.”" data-i18n="1">品牌体验还可以继续被带走。”</span></div>
+</div>
+<div class="story-grid story-grid-four">
+<figure class="story-card"><img alt="品牌活动周边｜礼盒与视觉延展" data-alt-cn="品牌活动周边｜礼盒与视觉延展" data-alt-en="Branded Event Materials | Gift Box &amp; Visual Extension" src="assets/img-23-48ddcf651181.jpg"/><figcaption><span data-cn="品牌活动周边｜礼盒与视觉延展" data-en="Branded Event Materials | Gift Box &amp; Visual Extension" data-i18n="1">品牌活动周边｜礼盒与视觉延展</span></figcaption></figure>
+<figure class="story-card"><img alt="品牌活动周边｜定制包装" data-alt-cn="品牌活动周边｜定制包装" data-alt-en="Branded Event Materials | Custom Packaging" src="assets/img-24-43d3f932e422.jpg"/><figcaption><span data-cn="品牌活动周边｜定制包装" data-en="Branded Event Materials | Custom Packaging" data-i18n="1">品牌活动周边｜定制包装</span></figcaption></figure>
+<figure class="story-card"><img alt="品牌活动周边｜礼品袋" data-alt-cn="品牌活动周边｜礼品袋" data-alt-en="Branded Event Materials | Gift Bag" src="assets/img-25-0b7fe39c2d44.jpg"/><figcaption><span data-cn="品牌活动周边｜礼品袋" data-en="Branded Event Materials | Gift Bag" data-i18n="1">品牌活动周边｜礼品袋</span></figcaption></figure>
+<figure class="story-card"><img alt="品牌活动周边｜活动礼盒" data-alt-cn="品牌活动周边｜活动礼盒" data-alt-en="Branded Event Materials | Event Gift Box" src="assets/img-26-065b00d0e7a6.jpg"/><figcaption><span data-cn="品牌活动周边｜新生录取通知书礼盒" data-en="Branded Event Materials | Admissions Gift Box" data-i18n="1">品牌活动周边｜新生录取通知书礼盒</span></figcaption></figure>
+<figure class="story-card"><img alt="品牌活动周边｜礼盒设计方案" data-alt-cn="品牌活动周边｜礼盒设计方案" data-alt-en="Branded Event Materials | Gift Box Design" src="assets/img-25-0b7fe39c2d44.jpg"/><figcaption><span data-cn="品牌活动周边｜礼盒设计方案" data-en="Branded Event Materials | Gift Box Design" data-i18n="1">品牌活动周边｜礼盒设计方案</span></figcaption></figure>
+<figure class="story-card"><img alt="品牌活动周边｜视觉应用" data-alt-cn="品牌活动周边｜视觉应用" data-alt-en="Branded Event Materials | Visual Applications" src="assets/img-27-ab0d40377fe2.jpg"/><figcaption><span data-cn="品牌活动周边｜视觉应用" data-en="Branded Event Materials | Visual Applications" data-i18n="1">品牌活动周边｜视觉应用</span></figcaption></figure>
+<figure class="story-card"><img alt="品牌活动周边｜品牌物料延展" data-alt-cn="品牌活动周边｜品牌物料延展" data-alt-en="Branded Event Materials | Brand Extensions" src="assets/img-23-48ddcf651181.jpg"/><figcaption><span data-cn="品牌活动周边｜品牌物料延展" data-en="Branded Event Materials | Brand Extensions" data-i18n="1">品牌活动周边｜品牌物料延展</span></figcaption></figure>
+</div>
+</section>
+<section data-reveal="" id="people-projects">
+<div class="section-head">
+<h2><span data-cn="项目体验与学生团队" data-en="Project Experiences &amp; Student Teams" data-i18n="1">项目体验与学生团队</span></h2>
+<p><span data-cn="除了大型品牌活动，我也长期参与项目体验、研学项目和学生团队运营。这里展示的是我更“贴近人”的一面：把项目做出来，也把人与人的连接做起来。" data-en="Beyond large-scale brand events, I have also worked closely on experiential education, study programmes and student-team operations. This section shows the more people-focused side of my work: building the project while building meaningful connections." data-i18n="1">除了大型品牌活动，我也长期参与项目体验、研学项目和学生团队运营。这里展示的是我更“贴近人”的一面：把项目做出来，也把人与人的连接做起来。</span></p>
+</div>
+<div class="story-intro">
+<div>
+<div class="kicker"><span data-cn="07 / 摆渡学堂" data-en="07 / Ba Du Academy" data-i18n="1">07 / 摆渡学堂</span></div>
+<h3><span data-cn="从一次参访，到一套可复制的研学体验" data-en="From one visit to a repeatable learning experience" data-i18n="1">从一次参访，到一套可复制的研学体验</span></h3>
+<p><span data-cn="在摆渡学堂项目中，我参与从项目设计、学校对接到现场体验的完整链路。通过课程、校园探索与学生互动，把单纯的“参观大学”转化为更有内容的项目体验。" data-en="At Ba Du Academy, I worked across project design, school partnerships and on-site experience. By combining learning modules, campus exploration and student interaction, we transformed a simple university visit into a richer, repeatable experience." data-i18n="1">在摆渡学堂项目中，我参与从项目设计、学校对接到现场体验的完整链路。通过课程、校园探索与学生互动，把单纯的“参观大学”转化为更有内容的项目体验。</span></p>
+</div>
+<div class="story-quote"><span data-cn="“不是把学生带进校园，" data-en="“It is not about bringing students onto campus," data-i18n="1">“不是把学生带进校园，</span><br/><span data-cn="而是让他们真正开始理解一所大学。”" data-en="but about helping them truly understand a university.”" data-i18n="1">而是让他们真正开始理解一所大学。”</span></div>
+</div>
+<div class="story-grid story-grid-two">
+<figure class="story-card"><img alt="摆渡学堂｜研学项目现场" data-alt-cn="摆渡学堂｜研学项目现场" data-alt-en="Ba Du Academy | Experiential Education Project" src="assets/img-28-96018d2a8e0e.png"/><figcaption><span data-cn="摆渡学堂｜研学项目行程表（部分）" data-en="Ba Du Academy | Sample Programme Schedule" data-i18n="1">摆渡学堂｜研学项目行程表（部分）</span></figcaption></figure>
+<figure class="story-card"><img alt="摆渡学堂｜研学团队与校园体验" data-alt-cn="摆渡学堂｜研学团队与校园体验" data-alt-en="Ba Du Academy | Team &amp; Campus Experience" src="assets/img-29-0543eaae218e.jpg"/><figcaption><span data-cn="摆渡学堂｜研学团队与校园体验" data-en="Ba Du Academy | Team &amp; Campus Experience" data-i18n="1">摆渡学堂｜研学团队与校园体验</span></figcaption></figure>
+</div>
+<div class="story-intro second">
+<div>
+<div class="kicker"><span data-cn="08 / 学生大使团" data-en="08 / Student Ambassador Team" data-i18n="1">08 / 学生大使团</span></div>
+<h3><span data-cn="让校园参访成为品牌体验的一部分" data-en="Making campus visits part of the brand experience" data-i18n="1">让校园参访成为品牌体验的一部分</span></h3>
+<p><span data-cn="我长期带领学生大使团队参与周末参访、招生开放日等场景。学生不是简单的“讲解员”，而是校园品牌与潜在学生、家长之间最真实的连接者。" data-en="I have long led student ambassadors across weekend visits, admissions open days and other visitor experiences. They are not simply guides; they are the most authentic connection between the campus brand and prospective students and parents." data-i18n="1">我长期带领学生大使团队参与周末参访、招生开放日等场景。学生不是简单的“讲解员”，而是校园品牌与潜在学生、家长之间最真实的连接者。</span></p>
+</div>
+<div class="story-note">
+<b><span data-cn="133人学生大使团" data-en="133-member student ambassador team" data-i18n="1">133人学生大使团</span></b>
+<span><span data-cn="培训 · 排班 · 考核 · 活动执行 · 现场服务" data-en="Training · Scheduling · Assessment · Event Delivery · On-Site Service" data-i18n="1">培训 · 排班 · 考核 · 活动执行 · 现场服务</span></span>
+</div>
+</div>
+<div class="story-grid story-grid-two">
+<figure class="story-card"><img alt="学生向导团｜周末校园参访" data-alt-cn="学生向导团｜周末校园参访" data-alt-en="Student Guide Team | Weekend Campus Visit" src="assets/img-30-d20db1a62cd8.jpg"/><figcaption><span data-cn="学生大使团｜周末校园参访" data-en="Student Ambassador Team | Weekend Campus Visit" data-i18n="1">学生大使团｜周末校园参访</span></figcaption></figure>
+<figure class="story-card"><img alt="学生向导团｜校园讲解与参访服务" data-alt-cn="学生向导团｜校园讲解与参访服务" data-alt-en="Student Guide Team | Campus Tours &amp; Visitor Service" src="assets/img-31-9d82789f298e.jpg"/><figcaption><span data-cn="学生大使团｜校园讲解与参访服务" data-en="Student Ambassador Team | Campus Tours &amp; Visitor Service" data-i18n="1">学生大使团｜校园讲解与参访服务</span></figcaption></figure>
+</div>
+<div class="story-intro second">
+<div>
+<div class="kicker"><span data-cn="09 / 学生活动与领导力培养" data-en="09 / Student Activities &amp; Leadership Development" data-i18n="1">09 / 学生活动与领导力培养</span></div>
+<h3><span data-cn="我也很在意“人”" data-en="I care deeply about people, too." data-i18n="1">我也很在意“人”</span></h3>
+<p><span data-cn="除了招生和品牌项目，我长期参与学生成长与团队建设。迎新、教师节感恩、团队表彰等活动，让我和学生之间形成了很强的信任感。这也是我项目管理之外，希望招聘方看到的另一面。" data-en="Beyond admissions and brand projects, I have been closely involved in student development and team building. Orientation, Teachers’ Day appreciation and team recognition activities helped build strong trust with students. It is another side of my work that I hope future employers can see beyond project management." data-i18n="1">除了招生和品牌项目，我长期参与学生成长与团队建设。迎新、教师节感恩、团队表彰等活动，让我和学生之间形成了很强的信任感。这也是我项目管理之外，希望招聘方看到的另一面。</span></p>
+</div>
+</div>
+<div class="story-grid story-grid-three">
+<figure class="story-card"><img alt="学生团队｜教师节感恩活动" data-alt-cn="学生团队｜教师节感恩活动" data-alt-en="Student Team | Teachers’ Day Appreciation" src="assets/img-32-d4e8d0339238.jpg"/><figcaption><span data-cn="学生团队｜教师节感恩活动" data-en="Student Team | Teachers’ Day Appreciation" data-i18n="1">学生团队｜教师节感恩活动</span></figcaption></figure>
+<figure class="story-card"><img alt="学生团队｜迎新与社区活动" data-alt-cn="学生团队｜迎新与社区活动" data-alt-en="Student Team | Orientation &amp; Community Activities" src="assets/img-33-3aad6b940d50.jpg"/><figcaption><span data-cn="学生团队｜迎新与社区活动" data-en="Student Team | Orientation &amp; Community Activities" data-i18n="1">学生团队｜迎新与社区活动</span></figcaption></figure>
+<figure class="story-card"><img alt="学生团队｜团队活动" data-alt-cn="学生团队｜团队活动" data-alt-en="Student Team | Team Activities" src="assets/img-34-dec668db2de3.jpg"/><figcaption><span data-cn="学生团队｜团队活动" data-en="Student Team | Team Activities" data-i18n="1">学生团队｜团队活动</span></figcaption></figure>
+<figure class="story-card"><img alt="学生团队｜表彰与团队建设" data-alt-cn="学生团队｜表彰与团队建设" data-alt-en="Student Team | Recognition &amp; Team Building" src="assets/img-35-97888572d96c.jpg"/><figcaption><span data-cn="学生团队｜表彰与团队建设" data-en="Student Team | Recognition &amp; Team Building" data-i18n="1">学生团队｜表彰与团队建设</span></figcaption></figure>
+<figure class="story-card"><img alt="学生团队｜团队日常" data-alt-cn="学生团队｜团队日常" data-alt-en="Student Team | Everyday Collaboration" src="assets/img-36-6044247e331c.jpg"/><figcaption><span data-cn="学生团队｜团队日常" data-en="Student Team | Everyday Collaboration" data-i18n="1">学生团队｜团队日常</span></figcaption></figure>
+</div>
+</section>
+<section data-reveal="" id="visual-design">
+<div class="section-head">
+<h2><span data-cn="视觉设计与品牌延展" data-en="Visual Design &amp; Brand Extensions" data-i18n="1">视觉设计与品牌延展</span></h2>
+<p><span data-cn="不只是“会做海报”，而是从活动主题出发建立视觉语言，并把主视觉延展到线下空间、礼盒、包装与品牌周边，让一次活动拥有完整而统一的视觉体验。" data-en="It is not simply about making posters. I build a visual language from the event concept, then extend it across physical spaces, gift boxes, packaging and branded materials to create a complete and consistent experience." data-i18n="1">不只是“会做海报”，而是从活动主题出发建立视觉语言，并把主视觉延展到线下空间、礼盒、包装与品牌周边，让一次活动拥有完整而统一的视觉体验。</span></p>
+</div>
+<div class="story-intro">
+<div>
+<div class="kicker"><span data-cn="10 / 活动主视觉" data-en="10 / Event Key Visuals" data-i18n="1">10 / 活动主视觉</span></div>
+<h3><span data-cn="从一张海报，建立一场活动的视觉识别" data-en="Building an event identity from a single visual" data-i18n="1">从一张海报，建立一场活动的视觉识别</span></h3>
+<p><span data-cn="参与不同类型校园及品牌活动的视觉策划与设计，将主题、场景与受众转化为可执行的视觉表达，并覆盖线上传播与线下现场物料。" data-en="I have contributed to visual planning and design for a range of campus and brand events, translating themes, contexts and audiences into executable visual systems across digital communications and physical event materials." data-i18n="1">参与不同类型校园及品牌活动的视觉策划与设计，将主题、场景与受众转化为可执行的视觉表达，并覆盖线上传播与线下现场物料。</span></p>
+<div class="skill-tags">
+</div>
+</div>
+<div class="story-note">
+<b><span data-cn="一个概念，多种品牌触点" data-en="One concept, multiple brand touchpoints" data-i18n="1">一个概念，多种品牌触点</span></b>
+<span><span data-cn="让活动从线上报名页，到现场空间，都保持同一套视觉语言。" data-en="Keeping the same visual language from the online registration page to the physical event space." data-i18n="1">让活动从线上报名页，到现场空间，都保持同一套视觉语言。</span></span>
+</div>
+</div>
+<div class="story-grid story-grid-four">
+<figure class="story-card"><img alt="活动主视觉｜活动报名海报" data-alt-cn="活动主视觉｜活动报名海报" data-alt-en="Event Key Visual | Registration Poster" src="assets/img-37-86a3481f3ce9.png"/><figcaption><span data-cn="活动主视觉｜活动报名海报" data-en="Event Key Visual | Registration Poster" data-i18n="1">活动主视觉｜活动报名海报</span></figcaption></figure>
+<figure class="story-card"><img alt="活动主视觉｜现场背景展板" data-alt-cn="活动主视觉｜现场背景展板" data-alt-en="Event Key Visual | On-Site Backdrop" src="assets/img-38-5fce00c321d1.jpg"/><figcaption><span data-cn="活动主视觉｜现场背景展板" data-en="Event Key Visual | On-Site Backdrop" data-i18n="1">活动主视觉｜现场背景展板</span></figcaption></figure>
+<figure class="story-card"><img alt="活动主视觉｜高桌晚宴" data-alt-cn="活动主视觉｜高桌晚宴" data-alt-en="Event Key Visual | Cocktail Reception" src="assets/img-39-361efba11c32.jpg"/><figcaption><span data-cn="活动主视觉｜高桌晚宴" data-en="Event Key Visual | Cocktail Reception" data-i18n="1">活动主视觉｜高桌晚宴</span></figcaption></figure>
+<figure class="story-card"><img alt="活动主视觉｜专家讲座海报" data-alt-cn="活动主视觉｜专家讲座海报" data-alt-en="Event Key Visual | Expert Lecture Poster" src="assets/img-40-e0f4f7831c8e.jpg"/><figcaption><span data-cn="活动主视觉｜专家讲座海报" data-en="Event Key Visual | Expert Lecture Poster" data-i18n="1">活动主视觉｜专家讲座海报</span></figcaption></figure>
+</div>
+</section>
+<section data-reveal="" id="recognition">
+<div class="section-head">
+<h2><span data-cn="表彰与影响" data-en="Recognition &amp; Impact" data-i18n="1">表彰与影响</span></h2>
+<p><span data-cn="有些认可来自奖项，有些来自一起工作的人。对我而言，后者同样重要。" data-en="Some recognition comes through awards; some comes from the people you work with. To me, the latter matters just as much." data-i18n="1">有些认可来自奖项，有些来自一起工作的人。对我而言，后者同样重要。</span></p>
+</div>
+<div class="recognition-intro">
+<div>
+<div class="kicker"><span data-cn="12 / 不止于职位" data-en="12 / More Than a Job Title" data-i18n="1">12 / 不止于职位</span></div>
+<h3><span data-cn="学生记住的，" data-en="What students remember" data-i18n="1">学生记住的，</span><br/><span data-cn="不只是我做过什么。" data-en="is not only what I did." data-i18n="1">不只是我做过什么。</span></h3>
+<p><span data-cn="在香港中文大学（深圳）担任 全人导师 期间，我和学生的关系并不止于“管理楼层事务”。学校公众号曾以人物故事的方式记录学生眼中的我。文章里的关键词很具体：" data-en="During my time as a Holistic Development Mentor at The Chinese University of Hong Kong, Shenzhen, my relationship with students went far beyond managing a residential floor. The university’s official WeChat account once featured my story through students’ eyes. Their descriptions were specific:" data-i18n="1">在香港中文大学（深圳）担任 全人导师 期间，我和学生的关系并不止于“管理楼层事务”。学校公众号曾以人物故事的方式记录学生眼中的我。文章里的关键词很具体：</span><strong><span data-cn="真诚、自然、积极、努力、细腻、坚韧、亲和、勇敢、执着。" data-en="sincere, natural, positive, hardworking, thoughtful, resilient, approachable, brave and persistent." data-i18n="1">真诚、自然、积极、努力、细腻、坚韧、亲和、勇敢、执着。</span></strong></p>
+<p><span data-cn="这些评价让我意识到，真正留下来的并不是一个职位名称，而是别人与你相处之后，对你的感受。" data-en="It reminded me that what lasts is not a job title, but how people feel after working and growing alongside you." data-i18n="1">这些评价让我意识到，真正留下来的并不是一个职位名称，而是别人与你相处之后，对你的感受。</span></p>
+<div class="wechat-source-card" data-reveal>
+  <img class="wechat-source-qr" src="assets/img-41-d35c28bb1dec.png" alt="公众号文章二维码" data-alt-cn="公众号文章二维码" data-alt-en="WeChat article QR code"/>
+  <div class="wechat-source-copy">
+    <div class="wechat-source-kicker"><span data-cn="公众号人物故事" data-en="WECHAT FEATURE" data-i18n="1">公众号人物故事</span></div>
+    <strong><span data-cn="扫码阅读学生眼中的我" data-en="READ THE STORY THROUGH STUDENTS’ EYES" data-i18n="1">扫码阅读学生眼中的我</span></strong>
+    <p><span data-cn="手机扫码直接阅读；电脑端也可点击右侧入口。" data-en="Scan to read on mobile, or open the original story on desktop." data-i18n="1">手机扫码直接阅读；电脑端也可点击右侧入口。</span></p>
+  </div>
+  <a class="wechat-source-link" href="https://mp.weixin.qq.com/s/ozZP-as0oJorI3kGaxO4rw" rel="noopener noreferrer" target="_blank"><span data-cn="查看原文 ↗" data-en="READ ↗" data-i18n="1">查看原文 ↗</span></a>
+</div>
+</div>
+<div class="recognition-quote">
+<span class="quote-mark">“</span>
+<p><span data-cn="她总能在保持亲和力的同时管好楼层的大小事务，并且让同学们都把她当好朋友。" data-en="“She always manages the floor’s responsibilities with warmth, while making students feel that she is also a friend.”" data-i18n="1">她总能在保持亲和力的同时管好楼层的大小事务，并且让同学们都把她当好朋友。</span></p>
+<small><span data-cn="—— 学生视角｜学勤书院全人导师人物故事" data-en="— Student perspective | Xueqin College holistic mentor story" data-i18n="1">—— 学生视角｜学勤书院全人导师人物故事</span></small>
+</div>
+</div>
+<div class="student-voices">
+<div class="voice-card">
+<span class="voice-index">12.1</span>
+<h4><span data-cn="温度建立信任。" data-en="Warmth builds trust." data-i18n="1">温度建立信任。</span></h4>
+<p><span data-cn="“我是真的把我们楼层的每一位同学当好朋友来相处的。”" data-en="“I genuinely treated every student on our floor like a friend.”" data-i18n="1">“我是真的把我们楼层的每一位同学当好朋友来相处的。”</span></p>
+<small><span data-cn="同学们记住的，是日常相处中一点点建立起来的关心、信任与连接。" data-en="What students remembered was the care, trust and connection built through everyday interactions." data-i18n="1">同学们记住的，是日常相处中一点点建立起来的关心、信任与连接。</span></small>
+</div>
+<div class="voice-card">
+<span class="voice-index">12.2</span>
+<h4><span data-cn="亲和与担当可以同时存在。" data-en="Warmth and responsibility can coexist." data-i18n="1">亲和与担当可以同时存在。</span></h4>
+<p><span data-cn="“她总能在保持亲和力的同时管好楼层的大小事务。”" data-en="“She always manages the floor’s responsibilities while remaining approachable.”" data-i18n="1">“她总能在保持亲和力的同时管好楼层的大小事务。”</span></p>
+<small><span data-cn="亲近学生并不意味着失去边界；她依然能够承担责任，把楼层事务处理得井然有序。" data-en="Being close to students does not mean losing boundaries; she can still take responsibility and keep operations organised." data-i18n="1">亲近学生并不意味着失去边界；她依然能够承担责任，把楼层事务处理得井然有序。</span></small>
+</div>
+<div class="voice-card">
+<span class="voice-index">12.3</span>
+<h4><span data-cn="向前走，也不要忘记自己。" data-en="Keep moving forward without losing yourself." data-i18n="1">向前走，也不要忘记自己。</span></h4>
+<p><span data-cn="“在努力的同时让一切都顺其自然。”" data-en="“Keep working hard while allowing things to unfold naturally.”" data-i18n="1">“在努力的同时让一切都顺其自然。”</span></p>
+<small><span data-cn="这也是她对工作与生活的理解：持续向前，同时保留对真实生活的感受。" data-en="That is also how I approach work and life: keep moving forward while staying connected to the reality of everyday life." data-i18n="1">这也是她对工作与生活的理解：持续向前，同时保留对真实生活的感受。</span></small>
+</div>
+</div>
+<div class="recognition-awards">
+<div class="award-copy">
+<div class="kicker"><span data-cn="正式表彰" data-en="Formal Recognition" data-i18n="1">正式表彰</span></div>
+<h3><span data-cn="长期投入，本身就是一种影响力。" data-en="Long-term commitment is a form of impact in itself." data-i18n="1">长期投入，本身就是一种影响力。</span></h3>
+<p><span data-cn="长期的校园工作也获得了来自学校、领导、教授与同事的认可。奖项记录的是结果，而持续被信任，则记录了过程。" data-en="My long-term work on campus has also been recognised by the university, leaders, professors and colleagues. Awards record outcomes; continued trust records the process." data-i18n="1">长期的校园工作也获得了来自学校、领导、教授与同事的认可。奖项记录的是结果，而持续被信任，则记录了过程。</span></p>
+<div class="award-tags">
+<span><span data-cn="长期贡献" data-en="Long-Term Contribution" data-i18n="1">长期贡献</span></span>
+<span><span data-cn="学生参与" data-en="Student Engagement" data-i18n="1">学生参与</span></span>
+<span><span data-cn="团队协作" data-en="Team Collaboration" data-i18n="1">团队协作</span></span>
+<span><span data-cn="专业认可" data-en="Professional Recognition" data-i18n="1">专业认可</span></span>
+</div>
+</div>
+<figure class="award-image">
+<img alt="Diligentia Exemplary Long Service Award certificate" src="assets/img-42-7333a0549d83.jpg"/>
+<figcaption><span data-cn="香港中文大学（深圳）· 学勤书院杰出长期服务奖" data-en="CUHK-Shenzhen · Xueqin College Outstanding Long-Term Service Award" data-i18n="1">香港中文大学（深圳）· 学勤书院杰出长期服务奖</span></figcaption>
+</figure>
+</div>
+<div class="recognition-statement">
+<span class="statement-mark">“</span>
+<div>
+<b><span data-cn="人们最终记住的，是你带给他们的感受。" data-en="“People ultimately remember how you made them feel.”" data-i18n="1">人们最终记住的，是你带给他们的感受。</span></b>
+<p><span data-cn="对我来说，传播工作的价值最终也在这里：把事情做好，也让一起做事的人愿意相信你。" data-en="For me, that is ultimately where the value of communications lies: doing the work well, and becoming someone others are willing to trust." data-i18n="1">对我来说，传播工作的价值最终也在这里：把事情做好，也让一起做事的人愿意相信你。</span></p>
+</div>
+</div>
+</section>
+<section data-reveal="" id="contact" style="border-bottom:0">
+<div class="contact">
+<div class="kicker" style="color:#e25b5b"><span data-cn="联系我" data-en="Contact" data-i18n="1">联系我</span></div>
+<h2><span data-cn="期待下一个" data-en="Looking forward to the next" data-i18n="1">期待下一个</span><br/><span data-cn="值得做的项目。" data-en="project worth doing." data-i18n="1">值得做的项目。</span></h2>
+<p><span data-cn="如果你正在寻找一位既懂品牌传播，又真正做过项目运营、用户体验和项目管理的人，欢迎联系我。" data-en="If you are looking for someone who understands brand communications and has hands-on experience in project operations, user experience and project management, I would love to hear from you." data-i18n="1">如果你正在寻找一位既懂品牌传播，又真正做过项目运营、用户体验和项目管理的人，欢迎联系我。</span></p>
+<div class="cta">
+<a class="btn primary" href="mailto:naturelulu@outlook.com" style="background:#fff;color:var(--ink);border-color:#fff">naturelulu@outlook.com</a>
+<a class="btn" href="tel:+8618319017107" style="border-color:#fff;color:#fff">
+<span data-cn="联系电话 · 183 1901 7107" data-en="Phone · +86 183 1901 7107" data-i18n="1">联系电话 · 183 1901 7107</span>
+</a>
+</div>
+</div>
+</section>
+<footer>
+<span><span data-cn="© 2026 鹿自然" data-en="© 2026 Nature Lu" data-i18n="1">© 2026 鹿自然</span></span>
+<span><span data-cn="品牌传播 · 内容策划 · 项目运营" data-en="Brand Communications · Content Strategy · Project Operations" data-i18n="1">品牌传播 · 内容策划 · 项目运营</span></span>
+</footer>
+</div>
+<div aria-hidden="true" class="image-lightbox" id="imageLightbox">
+<button aria-label="关闭图片" data-aria-cn="关闭图片" data-aria-en="Close image" id="lightboxClose" type="button">×</button>
+<img alt="" id="lightboxImage"/>
+</div>
+<script>
+(function(){
+  const root = document.documentElement;
+  const body = document.body;
+
+  // Reading progress: a tiny top-line interaction, no layout change.
+  function updateProgress(){
+    const max = document.documentElement.scrollHeight - window.innerHeight;
+    const progress = max > 0 ? Math.min(1, Math.max(0, window.scrollY / max)) : 0;
+    root.style.setProperty('--scroll-progress', progress);
+    body.classList.add('interaction-ready');
+  }
+  window.addEventListener('scroll', updateProgress, {passive:true});
+  updateProgress();
+
+  // Reveal sections gently as they enter the viewport.
+  const revealItems = document.querySelectorAll('[data-reveal]');
+  if ('IntersectionObserver' in window){
+    const observer = new IntersectionObserver((entries)=>{
+      entries.forEach(entry=>{
+        if(entry.isIntersecting){
+          entry.target.classList.add('revealed');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {threshold:0.12});
+    revealItems.forEach(el=>observer.observe(el));
+  }else{
+    revealItems.forEach(el=>el.classList.add('revealed'));
+  }
+
+  // Highlight the navigation item for the section currently being read.
+  const navLinks = Array.from(document.querySelectorAll('.navlinks a[href^="#"]'));
+  const sections = navLinks
+    .map(link => document.querySelector(link.getAttribute('href')))
+    .filter(Boolean);
+
+  if ('IntersectionObserver' in window && navLinks.length){
+    const navObserver = new IntersectionObserver((entries)=>{
+      entries.forEach(entry=>{
+        if(entry.isIntersecting){
+          navLinks.forEach(link=>link.classList.remove('is-active'));
+          const active = navLinks.find(link => link.getAttribute('href') === '#' + entry.target.id);
+          if(active) active.classList.add('is-active');
+        }
+      });
+    }, {rootMargin:'-25% 0px -60% 0px', threshold:0});
+    sections.forEach(section=>navObserver.observe(section));
+  }
+
+  // Click an image to view the complete original without changing its page layout.
+  const lightbox = document.getElementById('imageLightbox');
+  const lightboxImage = document.getElementById('lightboxImage');
+  const closeButton = document.getElementById('lightboxClose');
+
+  document.querySelectorAll('.story-card img, .gallery-item img').forEach(img=>{
+    img.addEventListener('click', ()=>{
+      lightboxImage.src = img.currentSrc || img.src;
+      lightboxImage.alt = img.alt || '';
+      lightbox.classList.add('is-open');
+      lightbox.setAttribute('aria-hidden','false');
+    });
+  });
+
+  function closeLightbox(){
+    lightbox.classList.remove('is-open');
+    lightbox.setAttribute('aria-hidden','true');
+    lightboxImage.removeAttribute('src');
+  }
+
+  closeButton.addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', (event)=>{
+    if(event.target === lightbox) closeLightbox();
+  });
+  document.addEventListener('keydown', (event)=>{
+    if(event.key === 'Escape' && lightbox.classList.contains('is-open')) closeLightbox();
+  });
+})();
+</script>
+<script>
+(function(){
+  const cursor = document.getElementById('customCursor');
+  if (!cursor || !window.matchMedia('(hover:hover) and (pointer:fine)').matches) return;
+
+  let x = -100, y = -100;
+  let tx = x, ty = y;
+
+  window.addEventListener('mousemove', (e)=>{
+    tx = e.clientX;
+    ty = e.clientY;
+    cursor.classList.add('is-visible');
+  }, {passive:true});
+
+  function render(){
+    x += (tx - x) * 0.18;
+    y += (ty - y) * 0.18;
+    cursor.style.left = x + 'px';
+    cursor.style.top = y + 'px';
+    requestAnimationFrame(render);
+  }
+  render();
+
+  const hoverTargets = document.querySelectorAll(
+    'a, button, .project, .tag, .btn'
+  );
+  hoverTargets.forEach(el=>{
+    el.addEventListener('mouseenter', ()=>cursor.classList.add('is-hover'));
+    el.addEventListener('mouseleave', ()=>cursor.classList.remove('is-hover'));
+  });
+
+  document.querySelectorAll('.story-card img, .gallery-item img').forEach(img=>{
+    img.addEventListener('mouseenter', ()=>{
+      cursor.classList.add('is-hover','is-image');
+    });
+    img.addEventListener('mouseleave', ()=>{
+      cursor.classList.remove('is-hover','is-image');
+    });
+  });
+
+  document.addEventListener('mouseleave', ()=>cursor.classList.remove('is-visible'));
+  document.addEventListener('mouseenter', ()=>cursor.classList.add('is-visible'));
+})();
+</script>
+<script>
+(function(){
+  // Gentle count-up for the four hero stats.
+  const counters = document.querySelectorAll('[data-count]');
+  const animateCounter = (el)=>{
+    if(el.dataset.done) return;
+    el.dataset.done = '1';
+    const target = parseFloat(el.dataset.count);
+    const suffix = el.dataset.suffix || '';
+    const decimal = el.dataset.decimal ? Number(el.dataset.decimal) : 0;
+    const duration = 900;
+    const start = performance.now();
+
+    function frame(now){
+      const p = Math.min(1,(now-start)/duration);
+      const eased = 1-Math.pow(1-p,3);
+      const value = target*eased;
+      el.textContent = value.toFixed(decimal)+suffix;
+      if(p<1) requestAnimationFrame(frame);
+    }
+    requestAnimationFrame(frame);
+  };
+
+  if('IntersectionObserver' in window){
+    const observer = new IntersectionObserver((entries)=>{
+      entries.forEach(entry=>{
+        if(entry.isIntersecting){
+          animateCounter(entry.target);
+          observer.unobserve(entry.target);
+        }
+      });
+    },{threshold:.65});
+    counters.forEach(el=>observer.observe(el));
+  }else{
+    counters.forEach(animateCounter);
+  }
+
+  // Slight pointer tilt on project cards only — intentionally very subtle.
+  const cards = document.querySelectorAll('.project');
+  if(window.matchMedia('(hover:hover) and (pointer:fine)').matches){
+    cards.forEach(card=>{
+      card.addEventListener('mousemove',(e)=>{
+        const r=card.getBoundingClientRect();
+        const x=(e.clientX-r.left)/r.width-.5;
+        const y=(e.clientY-r.top)/r.height-.5;
+        card.style.transform=`perspective(900px) rotateX(${(-y*1.6).toFixed(2)}deg) rotateY(${(x*1.8).toFixed(2)}deg) translateY(-3px)`;
+      });
+      card.addEventListener('mouseleave',()=>{
+        card.style.transform='';
+      });
+    });
+  }
+
+  // Horizontal wheel browsing for dense image groups, without changing their
+  // default grid layout. Only activates when a group is wider than its viewport.
+  document.querySelectorAll('.story-grid').forEach(grid=>{
+    grid.addEventListener('wheel',(e)=>{
+      if(Math.abs(e.deltaY)>Math.abs(e.deltaX) && grid.scrollWidth>grid.clientWidth){
+        grid.scrollLeft += e.deltaY;
+        e.preventDefault();
+      }
+    },{passive:false});
+  });
+})();
+</script>
+<script>
+(function(){
+  const pdfData = "Nature_Lu_CV.pdf";
+  const frame = document.getElementById("resumeFrame");
+  const download = document.getElementById("resumeDownload");
+  if(frame) frame.src = pdfData;
+  if(download) download.href = pdfData;
+})();
+</script>
+<script>
+(function(){
+  const pdfData = "Nature_Lu_CV.pdf";
+  const navDownload = document.getElementById("navResumeDownload");
+  if(navDownload) navDownload.href = pdfData;
+})();
+</script>
+<script>
+(function(){
+  const pdfData = "Nature_Lu_CV.pdf";
+  const heroDownload = document.getElementById("heroResumeDownload");
+  if(heroDownload) heroDownload.href = pdfData;
+})();
+</script>
+<script>
+(function () {
+  const toggle = document.getElementById("languageToggle");
+  if (!toggle) return;
+
+  const nodes = Array.from(document.querySelectorAll("[data-i18n]"));
+  let currentLanguage = "zh";
+
+  function applyLanguage(language) {
+    currentLanguage = language;
+    const en = language === "en";
+
+    document.documentElement.lang = en ? "en" : "zh-CN";
+    document.body.classList.toggle("lang-en", en);
+
+    nodes.forEach(el => {
+      el.textContent = en ? el.dataset.en : el.dataset.cn;
+    });
+
+    document.querySelectorAll("[data-alt-en]").forEach(img => {
+      img.alt = en ? img.dataset.altEn : img.dataset.altCn;
+    });
+
+    document.querySelectorAll("[data-download-en]").forEach(a => {
+      a.download = en ? a.dataset.downloadEn : a.dataset.downloadCn;
+    });
+
+    document.querySelectorAll("[data-aria-en]").forEach(el => {
+      el.setAttribute("aria-label", en ? el.dataset.ariaEn : el.dataset.ariaCn);
+    });
+
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta && meta.dataset.contentEn) {
+      meta.content = en ? meta.dataset.contentEn : meta.dataset.contentCn;
+    }
+
+    document.title = en
+      ? "Nature Lu | Brand Communications · Content Strategy · Project Operations"
+      : "鹿自然｜品牌传播 · 内容策划 · 项目运营";
+
+    const statsEN = [["5","years"],["32","videos"],["40","events"],["15","K"]];
+    const statsCN = [["5","年"],["32","部"],["40","+"],["1.5","万"]];
+
+    document.querySelectorAll("[data-count]").forEach((el, i) => {
+      if (i >= 4) return;
+      const v = en ? statsEN[i] : statsCN[i];
+      el.dataset.count = v[0];
+      el.dataset.suffix = v[1];
+      el.textContent = v[0] + v[1];
+    });
+
+    toggle.textContent = en ? "CN" : "EN";
+    toggle.setAttribute("aria-label", en ? "Switch to Chinese" : "Switch to English");
+  }
+
+  toggle.addEventListener("click", function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    applyLanguage(currentLanguage === "zh" ? "en" : "zh");
+  });
+
+  applyLanguage("zh");
+})();
+</script><script>
+(function(){
+  document.querySelectorAll('[data-video-url]').forEach(function(card){
+    function openVideo(){
+      window.open(card.getAttribute('data-video-url'), '_blank', 'noopener,noreferrer');
+    }
+    card.addEventListener('click', openVideo);
+    card.addEventListener('keydown', function(e){
+      if(e.key === 'Enter' || e.key === ' '){
+        e.preventDefault();
+        openVideo();
+      }
+    });
+  });
+})();
+</script></body>
+</html>
